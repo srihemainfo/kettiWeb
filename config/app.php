@@ -143,6 +143,8 @@ return [
         // 'store'  => 'redis',
     ],
 
+    'web_api_url' => env('WEB_APIURL', 'http://localhost:8000/api'),
+
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers

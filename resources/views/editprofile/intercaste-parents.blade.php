@@ -206,34 +206,53 @@
                 <div class="col-lg-6" id="main_profile_screen">
                     
                     <div id="aft-login">
-                        <h2 class="aft-login-head">Habits</h2>
+                        <h2 class="aft-login-head">For Intercaste Parents</h2>
                         <div class="request-box row">
                             <form class="mt-3">
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                         <label class="form-label" style="color: #868686;">Eating Habits</label>
+                                          <label class="form-label" style="color: #868686;">Father Religion</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option value="">Select</option>
                                     
                                 </select>
                                 </div><div class="col-md-6 mb-3">
-                                    
-                                <label class="form-label" style="color: #868686;">Smoking Habits</label>
+                                   <label class="form-label" style="color: #868686;">Father Caste</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
-                              
+                                    <option value="">Select</option>
+                                    
                                 </select>
                                 </div>
                                    
                                     <div class="col-md-6 mb-3">
-                                           <label class="form-label" style="color: #868686;">Drinking Habits</label>
+                                          <label class="form-label" style="color: #868686;">Father Subcaste</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option value="">Select</option>
                                     
                                 </select>
                                     </div>
                                     
-                                     
+                                    <div class="col-md-6 mb-3">
+                                          <label class="form-label" style="color: #868686;">Mother Religion</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option value="">Select</option>
+                                    
+                                </select>
+                                    </div>
+                                     <div class="col-md-6 mb-3">
+                                          <label class="form-label" style="color: #868686;">Mother Caste</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option value="">Select</option>
+                                    
+                                </select>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                          <label class="form-label" style="color: #868686;">Mother Subcaste</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option value="">Select</option>
+                                    
+                                </select>
+                                    </div>
                                     
                                    <div class="row mt-4">
                                         <div class="next-btn text-center ">
@@ -260,13 +279,7 @@
     {{-- Footer --}}
     @include('include.footer')
     {{-- Footer --}}
-    
-<script>
-    
-  
 
-
-  </script>
 <script>
         function loading() {
   document.querySelectorAll(".bar").forEach(function(current) {

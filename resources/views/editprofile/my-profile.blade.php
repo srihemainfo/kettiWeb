@@ -1,8 +1,5 @@
 <head>
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.6/dist/js/splide.min.js"></script>
-    
+ 
     <style>
         .wrapper {
   width: 520px;
@@ -244,9 +241,16 @@
                              <div class="col-md-6 mb-3">
                                 <label class="form-label fm-label" >Religion*</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected>Select</option>
-                                    <option value="male">Male</option>
-                                    <option value="female">Female</option>
+                                   <option value="">SELECT</option>     
+                                   <option value="1">Hindu</option> 
+                                <option value="2">Christian</option> 
+                                <option value="3">Muslim</option> 
+                                <option value="4">Jain</option> 
+                                <option value="5">Jewish</option> 
+                                <option value="6">Buddhist </option> 
+                                <option value="7">Parsi</option> 
+                                <option value="11">Sikh</option> 
+                                <option value="14">Inter-Religion</option> 
                                 </select>
                             </div>
                             <div class="col-md-6 mb-3">
@@ -704,7 +708,7 @@
                         </div>
                         </div>
                     </div>
-                    <div id="aft-login">
+                    <div id="aft-login" style="displaye:none;">
                         <h2 class="aft-login-head">Your Ideal Partner Awaits – Fill Out the Form</h2>
                         <div class="request-box row">
                             <form class="mt-3">
@@ -712,8 +716,45 @@
                                     <div class="col-md-6 mb-3">
                                   <label class="form-label fm-lable">Name</label>
                                    <input type="text" class="form-control" value="">
-                                  
-                                </div><div class="col-md-6 mb-3">
+                                </div>
+                                    <div class="col-md-6 mb-3">
+                                  <label class="form-label fm-lable">Created By</label>
+                                  <select class="form-select" aria-label="Default select example" name="religion" id="religion">
+                                        <option value="">Select Created By</option>
+                                        <option value="Self">Self</option>
+                                        <option value="Father">Father</option>
+                                        <option value="Mother">Mother</option>
+                                        <option value="Sister">Sister</option>
+                                        <option value="Brother">Brother</option>
+                                        <option value="Advisor">Advisor</option>
+                                                </select>
+                                </div>
+                                
+                                  <div class="col-md-6 mb-3">
+                                  <label class="form-label fm-lable">Phone Number</label>
+                                <input type="text" class="form-control" value="">
+                                </div>
+                                
+                                 <div class="col-md-6 mb-3">
+                                  <label class="form-label fm-lable">Email</label>
+                                <input type="email" class="form-control" value="">
+                                </div>
+                                
+                                 <div class="col-md-6 mb-3">
+                                  <label class="form-label fm-lable">Marital Status</label>
+                             <select class="form-select" name="marital" id="marital">
+                                 <option value="">Select Marital Status</option>
+          <option value="Never Married">Unmarried</option>
+          <option value="Widow with children">Widow / Widower with Children / Child</option>
+          <option value="Widow without children">Widow / Widower without Children / Child</option>
+          <option value="Divorce with children">Divorce with Children / Child</option>
+          <option value="Divorce without children">Divorce without Children / Child</option>
+          <option value="Awaiting Divorce with children">Awaiting Divorce with Children / Child</option>
+          <option value="Awaiting Divorce without children">Awaiting Divorce without Children / Child</option>
+                             </select>
+                                </div>
+                                
+                                <div class="col-md-6 mb-3">
                                   <label class="form-label fm-lable">Date of birth</label>
                                 <input type="date" class="form-control" value="">
                                 </div>
@@ -721,27 +762,37 @@
                                     <div class="col-md-6 mb-3">
                                          <label class="form-label fm-lable">Caste</label>
                                        <select class="form-select" aria-label="Default select example" name="religion" id="religion">
-                                        <option selected="">Select</option>
+                                        <option value="">Select Caste</option>
                                                 </select>
                                     </div>
-                                    
-                                     <div class="col-md-6 mb-3">
-                                         <label class="form-label fm-lable">Sub-caste</label>
-                                       <select class="form-select" aria-label="Default select example" name="religion" id="religion">
-                                        <option selected="">Select</option>
-                                                </select>
-                                    </div>
-                                    
+                                
                                          <div class="col-md-6 mb-3">
                                       <label class="form-label fm-lable">Religion</label>
                                        <select class="form-select" aria-label="Default select example" name="religion" id="religion">
-                                        <option selected="">Select</option>
+                                       <option value="">Select Religion</option>     
+            <option value="Hindu">Hindu</option> 
+            <option value="Christian">Christian</option> 
+            <option value="Muslim">Muslim</option> 
+            <option value="Jain">Jain</option> 
+            <option value="Jewish">Jewish</option> 
+            <option value="Buddhist">Buddhist </option> 
+            <option value="Parsi">Parsi</option> 
+            <option value="Sikh">Sikh</option> 
+            <option value="Inter-Religion">Inter-Religion</option> 
                                                 </select>
                                     </div>
                                          <div class="col-md-6 mb-3">
                                         <label class="form-label fm-lable">Mother Tongue</label>
                                        <select class="form-select" aria-label="Default select example" name="religion" id="religion">
-                                        <option selected="">Select</option>
+                                         <option class="default" value="">Select Mother Tongue</option>
+                      <option class="default" value="13">English</option>
+                      <option class="default" value="14">French</option>
+                      <option class="default" value="20">Hindi</option>
+                      <option class="default" value="22">Kannada</option>
+                      <option class="default" value="34">Malayalam</option>
+                      <option class="default" value="51">Tamil</option>
+                      <option class="default" value="52">Telugu</option>
+                      <option class="default" value="55">Urdu</option>
                                                 </select>
                                     </div>
                                     <div class="col-md-6 mb-3">
@@ -757,36 +808,16 @@
                                                 </select>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                      <label class="form-label fm-lable">Employee Id</label>
+                                      <label class="form-label fm-lable">Employee In</label>
                                       <select class="form-select" aria-label="Default select example" name="religion" id="religion">
-                                                    <option selected="">Select</option>
+                                                    <option value="">Select Employee In</option>
+                                                     <option value="Government Job">Government Job</option>
+                                                      <option value="Private Job">Private Job</option> 
+                                                      <option value="Business">Business</option>
+                                                       <option value="Self">Self</option>
                                                 </select>
                                     </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label class="form-label fm-lable">Occupation</label>
-                                        <select class="form-select" aria-label="Default select example">
-                                            <option selected>Select</option>
-                                            <option value="male">Engineer</option>
-                                            <option value="female">Doctor</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                         <label class="form-label fm-lable">Occupation Details</label>
-                                        <select class="form-select" aria-label="Default select example">
-                                            <option selected>Select</option>
-                                            <option value="male">Male</option>
-                                            <option value="female">Female</option>
-                                        </select>
-                                    </div>
                                 
-                                    <div class="col-md-6 mb-3">
-                                       <label class="form-label fm-lable">Father Name</label>
-                                        <input type="text" class="form-control" value="village">
-                                    </div> 
-                                    <div class="col-md-6 mb-3">
-                                        <label class="form-label fm-lable">Father Occupation</label>
-                                        <input type="text" class="form-control" value="Chennai">
-                                    </div>
                                     <div class="col-md-6 mb-3">
                                        <label class="form-label fm-lable">Bride/ Groom Lived in</label>
                                         <input type="text" class="form-control" value="LOOOL">
@@ -803,88 +834,92 @@
                         </div>
                     </div>
                 </div>
-                @include('myprof-side')
-            <!--<div class="col-lg-3 mb-4 bg-sec"style="display:none;">-->
-            <!--        <div class="green-bg" >-->
-            <!--            <div class="profile-main text-end">-->
-            <!--                <span class="btn-close" id="edit_closing_btn">X</span>-->
-            <!--            </div>-->
-            <!--            <div class="profile-secondary">-->
-            <!--                <div class="list-sec mt-4">-->
-            <!--                    <ul>-->
-            <!--                        <li id="bg-profile" onclick="window.location.href='{{ route('bride-groom') }}'" style="cursor: pointer;">-->
-            <!--                            <span class="icon"> <img src="images/after login/icon edit profile 1.webp">-->
-            <!--                            </span>-->
-            <!--                            <span class="description">Bride / Groom Profile</span>-->
-            <!--                        </li>-->
-            <!--                         <li  id="fam-det" onclick="window.location.href='{{ route('family-details') }}'" style="cursor: pointer;">-->
-                                   
-            <!--                            <span class="icon"> <img src="images/after login/icon edit profile 2.webp">-->
-            <!--                            </span>-->
-            <!--                            <span class="description">Family Detailss</span>-->
-            <!--                        </li>-->
-            <!--                        <li>-->
-            <!--                        </li>-->
-            <!--                        <li>-->
-            <!--                            <span class="icon"> <img src="images/after login/icon edit profile 3.webp">-->
-            <!--                            </span>-->
-            <!--                            <span class="description">Address Details</span>-->
-            <!--                        </li>-->
-            <!--                        <li>-->
-            <!--                            <span class="icon"> <img src="images/after login/icon edit profile 4.webp">-->
-            <!--                            </span>-->
-            <!--                            <span class="description">Partner Preference</span>-->
-            <!--                        </li>-->
-            <!--                        <li>-->
-            <!--                        </li>-->
-            <!--                        <li>-->
-            <!--                            <span class="icon"> <img src="images/after login/icon edit profile 5.webp">-->
-            <!--                            </span>-->
-            <!--                            <span class="description">Horoscope Details</span>-->
-            <!--                        </li>-->
-            <!--                        <li>-->
-            <!--                            <span class="icon"> <img src="images/after login/icon edit profile 6.webp">-->
-            <!--                            </span>-->
-            <!--                            <span class="description">Hobbies & Interest</span>-->
-            <!--                        </li>-->
-            <!--                        <li>-->
-            <!--                            <span class="icon"> <img src="images/after login/icon edit profile 7.webp">-->
-            <!--                            </span>-->
-            <!--                            <span class="description">Education & Occupation</span>-->
-            <!--                        </li>-->
-            <!--                        <li>-->
-            <!--                        </li>-->
-            <!--                        <li>-->
-            <!--                            <span class="icon"> <img src="images/after login/icon edit profile 8.webp">-->
-            <!--                            </span>-->
-            <!--                            <span class="description">Habits</span>-->
-            <!--                        </li>-->
-            <!--                        <li>-->
-            <!--                            <span class="icon"> <img src="images/after login/icon edit profile 9.webp">-->
-            <!--                            </span>-->
-            <!--                            <span class="description">Location Details</span>-->
-            <!--                        </li>-->
-            <!--                        <li>-->
-            <!--                            <span class="icon"> <img src="images/after login/icon edit profile 9.webp">-->
-            <!--                            </span>-->
-            <!--                            <span class="description">Physical Attributes</span>-->
-            <!--                        </li>-->
+                          <div class="col-lg-3 mb-4 bg-sec" id="sidebar" style="display:none;">
+                    <div class="green-bg" >
+                        <div class="profile-main text-end">
+                            <span class="btn-close" id="edit_closing_btn">X</span>
+                        </div>
+                        <div class="profile-secondary">
+                            <div class="list-sec mt-4">
+                                <ul>
+                                     <li id="bg-profile" class="{{ request()->routeIs('bride-groom') ? 'active' : '' }}" onclick="window.location.href='{{ route('bride-groom') }}'" style="cursor: pointer;">
+                                    <span class="icon"> <img src="images/after login/icon edit profile 1.webp"></span>
+                                    <span class="description">Bride / Groom Profile</span>
+                                </li>
+                                
+                                <li id="fam-det" class="{{ request()->routeIs('family-details') ? 'active' : '' }}" onclick="window.location.href='{{ route('family-details') }}'" style="cursor: pointer;">
+                                    <span class="icon"> <img src="images/after login/icon edit profile 2.webp"></span>
+                                    <span class="description">Family Details</span>
+                                </li>
+                                
+                                <li id="add-det" class="{{ request()->routeIs('address-details') ? 'active' : '' }}" onclick="window.location.href='{{ route('address-details') }}'" style="cursor: pointer;">
+                                    <span class="icon"> <img src="images/after login/icon edit profile 3.webp"></span>
+                                    <span class="description">Address Details</span>
+                                </li>
+
+                                    <li id="par-prefer" class="{{ request()->routeIs('partner-preference') ? 'active' : '' }}" onclick="window.location.href='{{ route('partner-preference') }}'" style="cursor: pointer;">
+                                        <span class="icon"> <img src="images/after login/icon edit profile 4.webp">
+                                        </span>
+                                        <span class="description">Partner Preference</span>
+                                    </li>
+                                    <li>
+                                    </li>
+                                         <li id="par-prefer" class="{{ request()->routeIs('horoscope-details') ? 'active' : '' }}" onclick="window.location.href='{{ route('horoscope-details') }}'" style="cursor: pointer;">
+
+                                        <span class="icon"> <img src="images/after login/icon edit profile 5.webp">
+                                        </span>
+                                        <span class="description">Horoscope Details</span>
+                                    </li>
+                                   <li id="par-prefer" class="{{ request()->routeIs('hobbies-interest') ? 'active' : '' }}" onclick="window.location.href='{{ route('hobbies-interest') }}'" style="cursor: pointer;">
+                                        <span class="icon"> <img src="images/after login/icon edit profile 6.webp">
+                                        </span>
+                                        <span class="description">Hobbies & Interest</span>
+                                    </li>
+                                        <li id="edu-detail" class="{{ request()->routeIs('education-occupation') ? 'active' : '' }}" onclick="window.location.href='{{ route('education-occupation') }}'" style="cursor: pointer;">
+
+                                        <span class="icon"> <img src="images/after login/icon edit profile 7.webp">
+                                        </span>
+                                        <span class="description">Education & Occupation</span>
+                                    </li>
+                                    <li>
+                                    </li>
+                                        <li id="edu-detail" class="{{ request()->routeIs('habits') ? 'active' : '' }}" onclick="window.location.href='{{ route('habits') }}'" style="cursor: pointer;">
+
+                                        <span class="icon"> <img src="images/after login/icon edit profile 8.webp">
+                                        </span>
+                                        <span class="description">Habits</span>
+                                    </li>
+                                <li id="loc-detail" class="{{ request()->routeIs('location-detail') ? 'active' : '' }}" onclick="window.location.href='{{ route('location-detail') }}'" style="cursor: pointer;">
+
+                                        <span class="icon"> <img src="images/after login/icon edit profile 9.webp">
+                                        </span>
+                                        <span class="description">Location Details</span>
+                                    </li>
+                                    <li id="phy-detail" class="{{ request()->routeIs('physical-attributee') ? 'active' : '' }}" onclick="window.location.href='{{ route('physical-attributee') }}'" style="cursor: pointer;">
+
+                                        <span class="icon"> <img src="images/after login/icon edit profile 9.webp">
+                                        </span>
+                                        <span class="description">Physical Attributes</span>
+                                    </li>
                                     
-            <!--                        <li>-->
-            <!--                            <span class="icon"> <img src="images/after login/icon edit profile 9.webp">-->
-            <!--                            </span>-->
-            <!--                            <span class="description">For Intercaste Parents</span>-->
-            <!--                        </li>-->
-            <!--                        <li>-->
-            <!--                            <span class="icon"> <img src="images/after login/icon edit profile 9.webp">-->
-            <!--                            </span>-->
-            <!--                            <span class="description">Others</span>-->
-            <!--                        </li>-->
-            <!--                    </ul>-->
-            <!--                </div>-->
-            <!--            </div>-->
-            <!--        </div>-->
-            <!--    </div>-->
+                              <li id="phy-detail" class="{{ request()->routeIs('intercaste-parents') ? 'active' : '' }}" onclick="window.location.href='{{ route('intercaste-parents') }}'" style="cursor: pointer;">
+
+                                        <span class="icon"> <img src="images/after login/icon edit profile 9.webp">
+                                        </span>
+                                        <span class="description">For Intercaste Parents</span>
+                                    </li>
+                                    <li>
+                                        <span class="icon"> <img src="images/after login/icon edit profile 9.webp">
+                                        </span>
+                                        <span class="description">Others</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+         
         </div>
     </section>
 

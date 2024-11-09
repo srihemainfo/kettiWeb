@@ -1,9 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-use Barryvdh\DomPDF\Facade\Pdf as DOMPDF;
 use App\Http\Controllers\PDFController;
-
+use Barryvdh\DomPDF\Facade\Pdf as DOMPDF;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +13,7 @@ use App\Http\Controllers\PDFController;
 | routes are loaded by the RouteServiceProvider and all of them will
 | be assigned to the "web" middleware group. Make something great!
 |
-*/
+ */
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -25,7 +24,6 @@ Route::get('/view-pdf', [PDFController::class, 'viewPDF'])->name('view.pdf');
 Route::get('/', function () {
     return view('index');
 });
-
 
 Route::get('/about-us', function () {
     return view('about-us');
@@ -60,51 +58,55 @@ Route::get('/terms', function () {
 });
 
 /////////     Edit Profile Starts here //////////////
-Route::get('/bride-groom', function () {
-    return view('editprofile/bride-groom');
-})->name('bride-groom');
+Route::group(['middleware' => ['verifyCookie']], function () {
 
+    Route::get('/bride-groom', 'MyProfileController@brideGroomIndex')->name('bride-groom');
 
-Route::get('/family-details', function () {
-    return view('editprofile/family-details');
-})->name('family-details');
+    Route::get('/family-details', function () {
+        return view('editprofile/family-details');
+    })->name('family-details');
 
-Route::get('/my-profile-side', function () {
-    return view('editprofile/myprof-side');
-})->name('myprof-side');
+    Route::get('/my-profile-side', function () {
+        return view('editprofile/myprof-side');
+    })->name('myprof-side');
 
-Route::get('/horoscope-details', function () {
-    return view('editprofile/horoscope-details');
-})->name('horoscope-details');
+    Route::get('/horoscope-details', function () {
+        return view('editprofile/horoscope-details');
+    })->name('horoscope-details');
 
-Route::get('/hobbies-interest', function () {
-    return view('editprofile/hobbies-interest');
-})->name('hobbies-interest');
+    Route::get('/hobbies-interest', function () {
+        return view('editprofile/hobbies-interest');
+    })->name('hobbies-interest');
 
-Route::get('/education-occupation', function () {
-    return view('editprofile/education-occupation');
-})->name('education-occupation');
+    Route::get('/education-occupation', function () {
+        return view('editprofile/education-occupation');
+    })->name('education-occupation');
 
-Route::get('/location-detail', function () {
-    return view('location-detail');
-})->name('location-detail');
+    Route::get('/location-detail', function () {
+        return view('location-detail');
+    })->name('location-detail');
 
-Route::get('/habits', function () {
-    return view('editprofile/habits');
-})->name('habits');
+    Route::get('/physical-attribute', function () {
+        return view('editprofile/physical-attributee');
+    })->name('physical-attributee');
 
-Route::get('/partner-preference', function () {
-    return view('editprofile/partner-preference');
-})->name('partner-preference');
+    Route::get('/intercaste-parents', function () {
+        return view('editprofile/intercaste-parents');
+    })->name('intercaste-parents');
 
-Route::get('/address-details', function () {
-    return view('editprofile/address-details');
-})->name('address-details');
+    Route::get('/habits', function () {
+        return view('editprofile/habits');
+    })->name('habits');
 
+    Route::get('/partner-preference', function () {
+        return view('editprofile/partner-preference');
+    })->name('partner-preference');
+
+    Route::get('/address-details', function () {
+        return view('editprofile/address-details');
+    })->name('address-details');
+});
 /////////     Edit Profile Ends here //////////////
-
-
-
 
 Route::get('/view-own-profile', function () {
     return view('view-own-profile');
@@ -215,10 +217,9 @@ Route::get('/view-english-fill', function () {
 });
 
 Route::get('/pdf_english', function () {
-    
+
     $file_name = 'pdf_en.pdf';
     $pdf = DOMPDF::loadView('pdf_en')->setPaper('a4', 'portrait');
-    
+
     return view('view-english-fill');
 });
-

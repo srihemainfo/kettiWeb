@@ -4,12 +4,7 @@
         .wrapper {
   width: 520px;
   max-width: 100%;
-}
-.list-sec ul li.active {
-    background: aquamarine;
-    padding: 12px 0;
-    border-radius: 14px;
-}
+        }
 .progress-bar {
   height: 17px;
   width: 100%;
@@ -206,34 +201,53 @@
                 <div class="col-lg-6" id="main_profile_screen">
                     
                     <div id="aft-login">
-                        <h2 class="aft-login-head">Habits</h2>
+                        <h2 class="aft-login-head">Physical Attributes</h2>
                         <div class="request-box row">
                             <form class="mt-3">
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                         <label class="form-label" style="color: #868686;">Eating Habits</label>
+                                          <label class="form-label" style="color: #868686;">Blood Group</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option value="">Select</option>
                                     
                                 </select>
                                 </div><div class="col-md-6 mb-3">
-                                    
-                                <label class="form-label" style="color: #868686;">Smoking Habits</label>
+                                   <label class="form-label" style="color: #868686;">Height</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
-                              
+                                    <option value="">Select</option>
+                                    
                                 </select>
                                 </div>
                                    
                                     <div class="col-md-6 mb-3">
-                                           <label class="form-label" style="color: #868686;">Drinking Habits</label>
+                                          <label class="form-label" style="color: #868686;">Weight</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option value="">Select</option>
                                     
                                 </select>
                                     </div>
                                     
-                                     
+                                    <div class="col-md-6 mb-3">
+                                          <label class="form-label" style="color: #868686;">Body Type</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option value="">Select</option>
+                                    
+                                </select>
+                                    </div>
+                                     <div class="col-md-6 mb-3">
+                                          <label class="form-label" style="color: #868686;">Complexion</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option value="">Select</option>
+                                    
+                                </select>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                          <label class="form-label" style="color: #868686;">Physical Status</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option value="">Select</option>
+                                    
+                                </select>
+                                    </div>
                                     
                                    <div class="row mt-4">
                                         <div class="next-btn text-center ">
@@ -260,13 +274,7 @@
     {{-- Footer --}}
     @include('include.footer')
     {{-- Footer --}}
-    
-<script>
-    
-  
 
-
-  </script>
 <script>
         function loading() {
   document.querySelectorAll(".bar").forEach(function(current) {
