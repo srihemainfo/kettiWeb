@@ -23,7 +23,7 @@ Route::get('/view-pdf', [PDFController::class, 'viewPDF'])->name('view.pdf');
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
 
 Route::get('/about-us', function () {
     return view('about-us');
@@ -60,6 +60,9 @@ Route::get('/terms', function () {
 /////////     Edit Profile Starts here //////////////
 Route::group(['middleware' => ['verifyCookie']], function () {
 
+    //Logout
+    Route::get('/logout','UserController@logout')->name('logout');
+
     Route::get('/bride-groom', 'MyProfileController@brideGroomIndex')->name('bride-groom');
 
     Route::get('/family-details', function () {
@@ -93,6 +96,10 @@ Route::group(['middleware' => ['verifyCookie']], function () {
     Route::get('/intercaste-parents', function () {
         return view('editprofile/intercaste-parents');
     })->name('intercaste-parents');
+
+    Route::get('/others', function () {
+        return view('editprofile/others');
+    })->name('others');
 
     Route::get('/habits', function () {
         return view('editprofile/habits');

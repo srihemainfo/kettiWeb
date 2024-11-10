@@ -1,7 +1,6 @@
 <head>
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.6/dist/js/splide.min.js"></script>
+   
     
     <style>
         .wrapper {
@@ -9,9 +8,7 @@
   max-width: 100%;
 }
 .list-sec ul li.active {
-    background: aquamarine;
-    padding: 12px 0;
-    border-radius: 14px;
+   border-right: 5px solid #e34257;
 }
 .progress-bar {
   height: 17px;
@@ -209,34 +206,47 @@
                 <div class="col-lg-6" id="main_profile_screen">
                     
                     <div id="aft-login">
-                        <h2 class="aft-login-head">Habits</h2>
+                        <h2 class="aft-login-head">Location Details</h2>
                         <div class="request-box row">
                             <form class="mt-3">
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                         <label class="form-label" style="color: #868686;">Eating Habits</label>
+                                          <label class="form-label" style="color: #868686;">Country Living In</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
-                                    
+                                    <option value="">Select</option>
+                                   
                                 </select>
                                 </div><div class="col-md-6 mb-3">
                                     
-                                <label class="form-label" style="color: #868686;">Smoking Habits</label>
+                                <label class="form-label" style="color: #868686;">Residing State</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
-                              
+                                    <option  value="">Select</option>
+                                   
                                 </select>
                                 </div>
                                    
                                     <div class="col-md-6 mb-3">
-                                           <label class="form-label" style="color: #868686;">Drinking Habits</label>
+                                           <label class="form-label" style="color: #868686;">Residing District</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
-                                    
+                                    <option value="">Select</option>
+                                  
+                                </select>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                            <label class="form-label" style="color: #868686;">Citizenship</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option value="">Select</option>
+                                  
                                 </select>
                                     </div>
                                     
-                                     
+                                     <div class="col-md-6 mb-3">
+                                             <label class="form-label" style="color: #868686;">Passport Information</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option value="">Select</option>
+                                    
+                                </select>
+                                    </div>
                                     
                                    <div class="row mt-4">
                                         <div class="next-btn text-center ">
@@ -292,60 +302,8 @@
 setTimeout(loading, 1000);
 </script>
 
-<script>
-    $(document).ready(function() {
-    $("#fam-det").click(function() {
-        $("#fam-det1").show();
-        $("#bg-profile1").hide();
-    });
-    
-});
-</script>
 
 <script>
-  $(document).ready(function() {
-      $("#edit-icon").hide();
-      $("#eye-icon").show();
-      
-    $("#eye-icon").click(function() {
-        $("#eye-icon").hide();
-        $("#edit-icon").show();
-    })
-      
-    $("#edit-icon").click(function() {
-        $("#edit-icon").hide();
-        $("#eye-icon").show();
-    })
-      
-    
-    $("#eye-icon").click(function() {
-        $("#com-preview").show();
-        $("#com-pre").hide();
-    });
-    
-    $("#edit-icon").click(function() {
-        $("#com-pre").show();
-        $("#com-preview").hide();
-    });
-    
-    
-    $("#edit_profile_btn").click(function(){
-        
-        $("#main_profile_screen").removeClass('col-lg-9');
-        $("#main_profile_screen").addClass('col-lg-6');
-        $(".bg-sec").show(500);
-        
-    })
-    
-    $("#edit_closing_btn").click(function(){
-        
-        $("#main_profile_screen").removeClass('col-lg-6');
-        $("#main_profile_screen").addClass('col-lg-9');
-        $(".bg-sec").hide(500);
-        
-    })
-    
-    
-});
+
 </script>
 </body>

@@ -1,11 +1,21 @@
 <head>
  
     <style>
+    .user-profile-details {
+    text-align: start !important;
+}
         .wrapper {
   width: 520px;
   max-width: 100%;
 }
-
+.crown-img {
+    width: 44px;
+    position: absolute;
+    /* right: 14px; */
+    /* margin-right: -1px; */
+   left: 89px;
+    z-index: 9;
+}
 .progress-bar {
   height: 17px;
   width: 100%;
@@ -111,25 +121,38 @@
             <div class="row">
                 <div class="col-lg-3 mb-4">
                     <div class="green-bg">
-                        <div class="profile-main">
+                         <div class="profile-main text-end">
+                            <!--<span class="btn-close" id="edit_closing_btn">X</span>-->
+
                             <div class="user-details">
                                 <div class="user-profile-pic">
-                                    <img src="images/after login/profile-main.webp" alt="profile-main"  data-bs-toggle="modal" data-bs-target="#profilePopup" style="cursor:pointer;">
+                                    <img src="images/after login/crown-3.png" alt="profile-main" data-bs-toggle="modal"
+                                        data-bs-target="#profilePopup" class="crown-img">
+                                    <img src="images/after login/new-img.avif" alt="profile-main" data-bs-toggle="modal"
+                                        data-bs-target="#profilePopup" class="avatar-img"
+                                        style="cursor:pointer;border-radius: 50%;">
                                 </div>
                                 <div class="user-profile-details">
-                                    <h1 class="user-name">T.Natarajan</h1>
-                                    <p class="user-id">km1044</p>
-                                    <p class="user-member">Free Package</p>
-                                    <button class="user-button">Upgrade Package</button>
+                                    <h1 class="user-name">Guest</h1>
+                                    <div class="free-badge">
+
+                                        <p class="mt-0 user-id">km1044</p>
+                                    </div>
+                                    <button class="user-button">View Profile</button>
                                 </div>
                             </div>
-                             <div class="wrapper mt-4 mb-3">
-                         <div class="progress-bar">
-                       <div class="bar" data-size="80">
-                      <span class="perc"></span>      
-                     </div>
-                      </div>
-                     </div>
+                            <div class="w-100 d-flex  align-items-center "
+                                style="justify-content: end;margin-top: -10px;">
+                                <span class="text-white" style="font-size:17px;">Complete Your Profile</span>
+                                <div id="chart-pie">
+                                </div>
+                            </div>
+                            <!--<div class="user-profile-details">-->
+                            <!--    <h1 class="user-name">T.Natarajan</h1>-->
+                            <!--    <p class="user-id">km1044</p>-->
+                            <!--    <p class="user-member">Free Package</p>-->
+                            <!--    <button class="user-button">Upgrade Package</button>-->
+                            <!--</div>-->
                         </div>
                         <div class="profile-secondary">
                             <div class="list-sec mt-4">
@@ -740,6 +763,16 @@
                                 <input type="email" class="form-control" value="">
                                 </div>
                                 
+                                  <div class="col-md-6 mb-3">
+                                  <label class="form-label fm-lable">Gender</label>
+                                <select class="form-select" name="marital" id="marital">
+                                 <option value="">Select Gender</option>
+                                  <option value="Male">Male</option>
+                                  <option value="Female">Female</option>
+         
+                             </select>
+                                </div>
+                                
                                  <div class="col-md-6 mb-3">
                                   <label class="form-label fm-lable">Marital Status</label>
                              <select class="form-select" name="marital" id="marital">
@@ -758,6 +791,21 @@
                                   <label class="form-label fm-lable">Date of birth</label>
                                 <input type="date" class="form-control" value="">
                                 </div>
+                                
+                                <div class="col-md-6 mb-3">
+                                        <label class="form-label fm-lable">Mother Tongue</label>
+                                       <select class="form-select" aria-label="Default select example" name="religion" id="religion">
+                                         <option class="default" value="">Select Mother Tongue</option>
+                      <option class="default" value="13">English</option>
+                      <option class="default" value="14">French</option>
+                      <option class="default" value="20">Hindi</option>
+                      <option class="default" value="22">Kannada</option>
+                      <option class="default" value="34">Malayalam</option>
+                      <option class="default" value="51">Tamil</option>
+                      <option class="default" value="52">Telugu</option>
+                      <option class="default" value="55">Urdu</option>
+                                                </select>
+                                    </div>
                                    
                                     <div class="col-md-6 mb-3">
                                          <label class="form-label fm-lable">Caste</label>
@@ -781,35 +829,20 @@
             <option value="Inter-Religion">Inter-Religion</option> 
                                                 </select>
                                     </div>
-                                         <div class="col-md-6 mb-3">
-                                        <label class="form-label fm-lable">Mother Tongue</label>
-                                       <select class="form-select" aria-label="Default select example" name="religion" id="religion">
-                                         <option class="default" value="">Select Mother Tongue</option>
-                      <option class="default" value="13">English</option>
-                      <option class="default" value="14">French</option>
-                      <option class="default" value="20">Hindi</option>
-                      <option class="default" value="22">Kannada</option>
-                      <option class="default" value="34">Malayalam</option>
-                      <option class="default" value="51">Tamil</option>
-                      <option class="default" value="52">Telugu</option>
-                      <option class="default" value="55">Urdu</option>
-                                                </select>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                          <label class="form-label fm-lable">Physical status</label>
-                                        <select class="form-select" aria-label="Default select example" name="religion" id="religion">
-                                        <option selected="">Select</option>
-                                                </select>
-                                    </div>
+                                         
+                                    
                                     <div class="col-md-6 mb-3">
                                        <label class="form-label fm-lable">Education</label>
-                                        <select class="form-select" aria-label="Default select example" name="religion" id="religion">
-                                                    <option selected="">Select</option>
+                                        <select class="form-select" aria-label="Default select example" name="religion" id="education">
+                                             <option value="">Select Education</option>
+                                                     <option value="Government Job">10th-12th</option>
+                                                      <option value="Private Job">UG</option> 
+                                                      <option value="Private Job">PG</option>
                                                 </select>
                                     </div>
                                     <div class="col-md-6 mb-3">
                                       <label class="form-label fm-lable">Employee In</label>
-                                      <select class="form-select" aria-label="Default select example" name="religion" id="religion">
+                                      <select class="form-select" aria-label="Default select example" name="religion" id="employee">
                                                     <option value="">Select Employee In</option>
                                                      <option value="Government Job">Government Job</option>
                                                       <option value="Private Job">Private Job</option> 
@@ -818,9 +851,21 @@
                                                 </select>
                                     </div>
                                 
+                                 <div class="col-md-6 mb-3">
+                                          <label class="form-label fm-lable">Physical status</label>
+                                        <select class="form-select" aria-label="Default select example" name="religion" id="religion">
+                                        <option value="">Select Physical status</option>
+                                                     <option value="Government Job">Physically Challanged</option>
+                                                      <option value="Private Job">None</option> 
+                                                </select>
+                                    </div>
                                     <div class="col-md-6 mb-3">
                                        <label class="form-label fm-lable">Bride/ Groom Lived in</label>
-                                        <input type="text" class="form-control" value="LOOOL">
+                                        <select class="form-select" aria-label="Default select example" name="religion" id="religion">
+                                        <option value="">Select Bride/ Groom Lived in</option>
+                                                     <option value="India">India</option>
+                                                      <option value="United States">United States</option> 
+                                                </select>
                                     </div>
                                     
                                     
@@ -934,7 +979,7 @@
     {{-- Footer --}}
     @include('include.footer')
     {{-- Footer --}}
-    
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 <script>
     
     (function() {
@@ -1095,4 +1140,38 @@ setTimeout(loading, 1000);
 //     $("#aft-login").show().addClass("col-lg-6");
 // });
 </script>
+  <script>
+        var options = {
+            series: [44, 56],
+            chart: {
+                type: 'donut',
+            },
+            colors: ['#4CAF50', '#E0E0E0'],
+            plotOptions: {
+                pie: {
+                    donut: {
+                        labels: {
+                            show: true,
+                            total: {
+                                show: true,
+                                label: false,
+                                formatter: function (w) {
+                                    return w.globals.series[0] + '%';
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            dataLabels: {
+                enabled: false,
+            },
+            tooltip: {
+                enabled: false
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart-pie"), options);
+        chart.render();
+    </script>
 </body>

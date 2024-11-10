@@ -34,9 +34,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
 
@@ -44,7 +42,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
     <meta name="csrf_token" content="{{ csrf_token() }}" />
 </head>
@@ -218,8 +216,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Blood Group<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Blood Group<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -238,8 +235,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Height<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Height<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -256,8 +252,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Body Type<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Body Type<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -274,8 +269,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Complexion<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Complexion<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -292,8 +286,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Eating Habits<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Eating Habits<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -311,8 +304,8 @@
                                     </form>
                                 </div>
                                 <div class="next-btn text-center">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2">Next <i
-                                            class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
+                                    <a href="#" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal2">Next <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -323,8 +316,7 @@
     </div>
 
     <!-- Modal 2 -->
-    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
@@ -344,8 +336,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Family Status<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Family Status<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -362,8 +353,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Family God<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Family God<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -375,8 +365,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Father's Work /
-                                                            Occupation<span class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Father's Work / Occupation<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -388,8 +377,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Father's Work /
-                                                            Occupation<span class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Father's Work / Occupation<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -401,8 +389,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Native Place<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Native Place<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -415,8 +402,8 @@
                                     </form>
                                 </div>
                                 <div class="next-btn text-center">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal3">Next <i
-                                            class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
+                                    <a href="#" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal3">Next <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -427,8 +414,7 @@
     </div>
 
     <!-- Modal 3 -->
-    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
@@ -448,8 +434,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Family Details<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Family Details<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -466,8 +451,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Elder Brothers<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Elder Brothers<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-22">
@@ -482,42 +466,7 @@
                                                 </div>
                                                 <div class="col-22">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Married<span
-                                                                class="quform-required">*</span></label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-22">
-                                                    <div class="form-group">
-                                                        <select class="form-select">
-                                                            <option>Select</option>
-                                                            <option>Option 1</option>
-                                                            <option>Option 2</option>
-                                                            <option>Option 3</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row align-items-center mb-2-3">
-                                                <div class="col-4">
-                                                    <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Elder Sisters<span
-                                                                class="quform-required">*</span></label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-22">
-                                                    <div class="form-group">
-                                                        <select class="form-select">
-                                                            <option>Select</option>
-                                                            <option>Option 1</option>
-                                                            <option>Option 2</option>
-                                                            <option>Option 3</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-22">
-                                                    <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Married<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Married<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-22">
@@ -534,8 +483,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Younger
-                                                            Brothers<span class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Elder Sisters<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-22">
@@ -550,8 +498,39 @@
                                                 </div>
                                                 <div class="col-22">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Married<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Married<span class="quform-required">*</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-22">
+                                                    <div class="form-group">
+                                                        <select class="form-select">
+                                                            <option>Select</option>
+                                                            <option>Option 1</option>
+                                                            <option>Option 2</option>
+                                                            <option>Option 3</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row align-items-center mb-2-3">
+                                                <div class="col-4">
+                                                    <div class="form-group">
+                                                        <label for="Blood Group" class="frm-lable">Younger Brothers<span class="quform-required">*</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-22">
+                                                    <div class="form-group">
+                                                        <select class="form-select">
+                                                            <option>Select</option>
+                                                            <option>Option 1</option>
+                                                            <option>Option 2</option>
+                                                            <option>Option 3</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-22">
+                                                    <div class="form-group">
+                                                        <label for="Blood Group" class="frm-lable">Married<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-22">
@@ -568,8 +547,7 @@
                                             <div class="row align-items-center mb-5">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Younger
-                                                            Sisters<span class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Younger Sisters<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-22">
@@ -584,8 +562,7 @@
                                                 </div>
                                                 <div class="col-22">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Married<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Married<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-22">
@@ -603,8 +580,8 @@
                                     </form>
                                 </div>
                                 <div class="next-btn text-center">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal4">Next <i
-                                            class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
+                                    <a href="#" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal4">Next <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -616,8 +593,7 @@
 
 
     <!-- Modal 4 -->
-    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
@@ -637,8 +613,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Country Living
-                                                            In<span class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Country Living In<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -655,8 +630,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">State Living
-                                                            In<span class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">State Living In<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -673,8 +647,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">District
-                                                            Living<span class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">District Living<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -691,8 +664,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Taluk Living
-                                                            In<span class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Taluk Living In<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -709,8 +681,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">City / Village<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">City / Village<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -722,8 +693,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Area /
-                                                            Location<span class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Area / Location<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -736,8 +706,8 @@
                                     </form>
                                 </div>
                                 <div class="next-btn text-center">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal5">Next <i
-                                            class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
+                                    <a href="#" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal5">Next <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -749,8 +719,7 @@
 
 
     <!-- Modal 5 -->
-    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
@@ -768,8 +737,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Door No &
-                                                            Street<span class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Door No & Street<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -781,8 +749,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Pin Code<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Pin Code<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -795,8 +762,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Photo Upload<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Photo Upload<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -808,8 +774,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Proof Of Identify
-                                                            Upload<span class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Proof Of Identify Upload<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -821,8 +786,7 @@
                                             <div class="row align-items-center mb-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Horoscope
-                                                            Upload<span class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Horoscope Upload<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -835,8 +799,8 @@
                                     </form>
                                 </div>
                                 <div class="next-btn text-center">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal6">Next <i
-                                            class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
+                                    <a href="#" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal6">Next <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -848,8 +812,7 @@
 
 
     <!-- Modal 6 -->
-    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
@@ -869,21 +832,16 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Do You Have
-                                                            Horoscope?<span class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Do You Have Horoscope?<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
                                                     <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio"
-                                                            name="inlineRadioOptions" id="inlineRadio1"
-                                                            value="option1">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                                                         <label class="form-check-label" for="inlineRadio1">Yes</label>
                                                     </div>
                                                     <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio"
-                                                            name="inlineRadioOptions" id="inlineRadio2"
-                                                            value="option2">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
                                                         <label class="form-check-label" for="inlineRadio2">No</label>
                                                     </div>
                                                 </div>
@@ -891,22 +849,19 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Date Of Birth<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Date Of Birth<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
                                                     <div class="form-group">
-                                                        <input type="date" class="form-control"
-                                                            placeholder="Pick a Date">
+                                                        <input type="date" class="form-control" placeholder="Pick a Date">
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Birth Day<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Birth Day<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -923,8 +878,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Time of Birth<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Time of Birth<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -936,8 +890,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Place of Birth<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Place of Birth<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -954,8 +907,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Gothram<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Gothram<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -973,8 +925,8 @@
                                     </form>
                                 </div>
                                 <div class="next-btn text-center">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal7">Next <i
-                                            class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
+                                    <a href="#" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal7">Next <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -986,8 +938,7 @@
 
 
     <!-- Modal 7 -->
-    <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1007,8 +958,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Star<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Star<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -1025,8 +975,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Rasi<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Rasi<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -1043,8 +992,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Laknam<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Laknam<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -1061,8 +1009,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Dosham<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Dosham<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -1079,8 +1026,7 @@
                                             <div class="row align-items-center mb-5">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Padham<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Padham<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -1098,8 +1044,8 @@
                                     </form>
                                 </div>
                                 <div class="next-btn text-center">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal8">Next <i
-                                            class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
+                                    <a href="#" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal8">Next <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -1110,8 +1056,7 @@
     </div>
 
     <!-- Modal 8 -->
-    <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1131,8 +1076,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Property
-                                                            Details<span class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Property Details<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -1149,22 +1093,17 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Do You Have Own
-                                                            Flat / House?<span class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Do You Have Own Flat / House?<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
                                                     <div class="form-group">
                                                         <div class="form-check form-check-inline">
-                                                            <input class="form-check-input" type="radio"
-                                                                name="inlineRadioOptions" id="house1"
-                                                                value="option1">
+                                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="house1" value="option1">
                                                             <label class="form-check-label" for="house1">Yes</label>
                                                         </div>
                                                         <div class="form-check form-check-inline">
-                                                            <input class="form-check-input" type="radio"
-                                                                name="inlineRadioOptions" id="house2"
-                                                                value="option2">
+                                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="house2" value="option2">
                                                             <label class="form-check-label" for="house2">No</label>
                                                         </div>
                                                     </div>
@@ -1173,22 +1112,17 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Caste No Bar<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Caste No Bar<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
                                                     <div class="form-group">
                                                         <div class="form-check form-check-inline">
-                                                            <input class="form-check-input" type="radio"
-                                                                name="inlineRadioOptions" id="caste1"
-                                                                value="option1">
+                                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="caste1" value="option1">
                                                             <label class="form-check-label" for="caste1">Yes</label>
                                                         </div>
                                                         <div class="form-check form-check-inline">
-                                                            <input class="form-check-input" type="radio"
-                                                                name="inlineRadioOptions" id="caste2"
-                                                                value="option2">
+                                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="caste2" value="option2">
                                                             <label class="form-check-label" for="caste2">No</label>
                                                         </div>
                                                     </div>
@@ -1197,8 +1131,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Proof Of
-                                                            Identify<span class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Proof Of Identify<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -1215,8 +1148,7 @@
                                             <div class="row align-items-center mb-2-3">
                                                 <div class="col-4">
                                                     <div class="form-group">
-                                                        <label for="Blood Group" class="frm-lable">Expectations<span
-                                                                class="quform-required">*</span></label>
+                                                        <label for="Blood Group" class="frm-lable">Expectations<span class="quform-required">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-8">
@@ -1229,8 +1161,7 @@
                                     </form>
                                 </div>
                                 <div class="next-btn text-center">
-                                    <a href="#">Next <i class="fas fa-chevron-right"></i><i
-                                            class="fas fa-chevron-right"></i></a>
+                                    <a href="#">Next <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -1252,33 +1183,26 @@
                                 <button data-bs-dismiss="modal"><img src="images/iconoir_cancel.webp"></button>
                             </div>
                             <div class="login-link text-center mb-4">
-                                <span style="font-size: 1.2rem;color: #696767;font-weight: 500;">Welcome Back! Please
-                                    Login</span>
+                                <span style="font-size: 1.2rem;color: #696767;font-weight: 500;">Welcome Back! Please Login</span>
                             </div>
                             <div class="resgiter-form-div">
                                 <form method="post" enctype="multipart/form-data" id="login_form">
                                     <div class="mb-4">
-                                        <label class="form-label">User Name / Mobile No</label>
-                                        <input type="text" class="form-control" name="user_name" id="user_name"
-                                            placeholder="Enter Mobile No">
-                                        {{-- <span style="color:red;">User ID Is Required</span> --}}
+                                        <label class="form-label">Mobile No</label>
+                                        <input type="text" class="form-control" name="user_name" id="user_name" placeholder="Enter Mobile No">
                                     </div>
                                     <div class="mb-4">
                                         <label class="form-label">Password</label>
-                                        <input type="password" class="form-control" name="password" id="password"
-                                            placeholder="Enter Password">
+                                        <input type="password" class="form-control" name="password" id="password" placeholder="Enter Password">
                                     </div>
                                     <div class="login-link text-end mb-4">
-                                        <a href="#" style="color: #509938;" data-bs-toggle="modal"
-                                            data-bs-target="#otp1" data-bs-dismiss="modal">Login With OTP</a>
+                                        <a href="#" style="color: #509938;" data-bs-toggle="modal" data-bs-target="#otp1" data-bs-dismiss="modal">Login With OTP</a>
                                     </div>
                                     <div class="next-btn text-center mb-4">
                                         <a href="#" onclick="LoginTheUser()">Login</a>
                                     </div>
                                     <div class="login-link text-center">
-                                        <span>New to Kettimelam?</span> <a href="#" style="color: #509938;"
-                                            data-bs-toggle="modal" data-bs-target="#register1"
-                                            data-bs-dismiss="modal">SIGN UP FREE</a>
+                                        <span>New to Kettimelam?</span> <a href="#" style="color: #509938;" data-bs-toggle="modal" data-bs-target="#register1" data-bs-dismiss="modal">SIGN UP FREE</a>
                                     </div>
                                 </form>
                             </div>
@@ -1318,39 +1242,31 @@
                                     <!--</div>-->
                                     <div class="mb-3">
                                         <label class="form-label">Name</label>
-                                        <input type="text" class="form-control" placeholder="Enter name"
-                                            name="customer_name" id="customer_name">
+                                        <input type="text" class="form-control" placeholder="Enter name" name="customer_name" id="customer_name">
                                         <p class="validate_errors" id="customer_name_error">Please enter your Name</p>
                                     </div>
 
                                     <div class="mb-3">
                                         <label class="form-label">Email</label>
-                                        <input type="text" class="form-control" placeholder="Enter email"
-                                            name="customer_email" id="customer_email">
-                                        <p class="validate_errors" id="customer_name_error">Please enter your Email
-                                        </p>
+                                        <input type="text" class="form-control" placeholder="Enter email" name="customer_no" id="customer_email">
+                                        <p class="validate_errors" id="customer_name_error">Please enter your Email</p>
                                     </div>
 
                                     <div class="mb-3">
                                         <label class="form-label">Mobile No.</label>
-                                        <input type="number" class="form-control" placeholder="Enter mobile no"
-                                            name="customer_no" id="customer_no">
-                                        <p class="validate_errors" id="customer_name_error">Please enter your Mobile
-                                            Number</p>
+                                        <input type="number" class="form-control" placeholder="Enter mobile no" name="customer_no" id="customer_no">
+                                        <p class="validate_errors" id="customer_name_error">Please enter your Mobile Number</p>
                                     </div>
 
                                     <div class="mb-3">
                                         <label class="form-label">Password</label>
-                                        <input type="password" class="form-control" placeholder="Enter password"
-                                            name="customer_password" id="customer_password">
-                                        <p class="validate_errors" id="customer_name_error">Please enter your Mobile
-                                            Number Password</p>
+                                        <input type="password" class="form-control" placeholder="Enter password" name="customer_no" id="customer_password">
+                                        <p class="validate_errors" id="customer_name_error">Please enter your Mobile Number Password</p>
                                     </div>
 
                                     <div class="mb-3">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                             <label class="form-check-label" for="flexCheckDefault">
                                                 Click here if this is your WhatsApp number
                                             </label>
@@ -1393,14 +1309,10 @@
                                     <!--    <p class="validate_errors" id="child_status_error">Please enter the Children Status</p>-->
                                     <!--</div>-->
                                     <div class="next-btn text-center mb-4">
-                                        <a href="#" class="btn btn-primary"
-                                            onclick="validateAndOpenModal('#register2')" data-bs-toggle="modal"
-                                            data-bs-target="#register2" data-bs-dismiss="modal">Submit</a>
+                                        <a href="#" class="btn btn-primary" onclick="validateAndOpenModal('#register2')" data-bs-toggle="modal" data-bs-target="#register2" data-bs-dismiss="modal">Submit</a>
                                     </div>
                                     <div class="login-link text-center">
-                                        <span>Already a Member?</span> <a style="color: #509938;"
-                                            data-bs-toggle="modal" data-bs-target="#login1"
-                                            data-bs-dismiss="modal">LOGIN</a>
+                                        <span>Already a Member?</span> <a style="color: #509938;" data-bs-toggle="modal" data-bs-target="#login1" data-bs-dismiss="modal">LOGIN</a>
                                     </div>
                                 </form>
                             </div>
@@ -1419,67 +1331,53 @@
                     <div class="container">
                         <div class="register-popup-main">
                             <div class="register2-heading text-start mb-3">
-                                <button data-bs-dismiss="modal" data-bs-toggle="modal"
-                                    data-bs-target="#register1"><img src="images/back-symbol.webp"></button>
+                                <button data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#register1"><img src="images/back-symbol.webp"></button>
                             </div>
                             <div class="register-form-div">
                                 <form action="#">
                                     <div class="mb-3">
                                         <label class="form-label">Religion</label>
-                                        <select class="form-select" aria-label="Default select example"
-                                            name="religion" id="religion">
+                                        <select class="form-select" aria-label="Default select example" name="religion" id="religion">
                                             <option selected>Select</option>
                                         </select>
-                                        <p class="validate_errors" id="religion_error" style="display: none;">Please
-                                            select an option for Religion</p>
+                                        <p class="validate_errors" id="religion_error" style="display: none;">Please select an option for Religion</p>
                                     </div>
 
                                     <div class="mb-3" id="sub_religion_container" style="display: none;">
                                         <label class="form-label">Sub-Religion</label>
-                                        <select class="form-select" aria-label="Default select example"
-                                            name="sub_religion" id="sub_religion">
+                                        <select class="form-select" aria-label="Default select example" name="sub_religion" id="sub_religion">
                                             <option value="" selected>Select</option>
                                         </select>
-                                        <input type="text" class="form-control mt-3" id="sub_religion_others"
-                                            name="sub_religion_others" placeholder="Enter Other Sub-Religion"
-                                            style="display: none;">
-                                        <p class="validate_errors" id="sub_religion_error" style="display: none;">
-                                            Please select an option for Sub-Religion</p>
+                                        <input type="text" class="form-control mt-3" id="sub_religion_others" name="sub_religion_others" placeholder="Enter Other Sub-Religion" style="display: none;">
+                                        <p class="validate_errors" id="sub_religion_error" style="display: none;">Please select an option for Sub-Religion</p>
                                     </div>
 
                                     <div class="mb-3">
                                         <label class="form-label">Caste</label>
-                                        <select class="form-select" aria-label="Default select example"
-                                            name="caste" id="caste">
+                                        <select class="form-select" aria-label="Default select example" name="caste" id="caste">
                                             <option value="" selected>Select</option>
                                         </select>
-                                        <p class="validate_errors" id="caste_error" style="display: none;">Please
-                                            select an option for Caste</p>
+                                        <p class="validate_errors" id="caste_error" style="display: none;">Please select an option for Caste</p>
                                     </div>
 
                                     <div class="mb-3">
                                         <label class="form-label">Sub Caste</label>
-                                        <select class="form-select" aria-label="Default select example"
-                                            name="sub_caste" id="sub_caste">
+                                        <select class="form-select" aria-label="Default select example" name="sub_caste" id="sub_caste">
                                             <option value="" selected>Select</option>
                                         </select>
-                                        <p class="validate_errors" id="sub_caste_error" style="display: none;">Please
-                                            select an option for Sub Caste</p>
+                                        <p class="validate_errors" id="sub_caste_error" style="display: none;">Please select an option for Sub Caste</p>
                                     </div>
 
                                     <div class="mb-3">
                                         <label class="form-label">Physical Status</label>
-                                        <select name="physicalstatus" class="form-control mb-3" id="physicalstatus"
-                                            required>
+                                        <select name="physicalstatus" class="form-control mb-3" id="physicalstatus" required>
                                             <option value="" selected>SELECT</option>
                                             <option value="Normal">Normal</option>
                                             <option value="Physically challenged">Physically Challenged</option>
                                         </select>
-                                        <p class="validate_errors" id="physicalstatus_error" style="display: none;">
-                                            Please select an option for Physical Status</p>
+                                        <p class="validate_errors" id="physicalstatus_error" style="display: none;">Please select an option for Physical Status</p>
 
-                                        <select id="challenge" name="physical" style="display:none;"
-                                            class="form-control">
+                                        <select id="challenge" name="physical" style="display:none;" class="form-control">
                                             <option value="" selected>Select</option>
                                             <option value="Hearing">Hearing & Speech Impaired</option>
                                             <option value="Visually Challenged">Visually Challenged</option>
@@ -1487,8 +1385,7 @@
                                             <option value="Muthe">Muthe</option>
                                             <option value="Others">Others</option>
                                         </select>
-                                        <p class="validate_errors" id="challenge_error" style="display: none;">Please
-                                            select an option for Challenge</p>
+                                        <p class="validate_errors" id="challenge_error" style="display: none;">Please select an option for Challenge</p>
                                     </div>
 
                                     <div style="display:none" id="otherchallenge">
@@ -1497,24 +1394,20 @@
                                         </div>
                                         <div class="col-md-6 mb-3">
                                             <input type="text" name="otherchallenge" class="form-control">
-                                            <p class="validate_errors" id="otherchallenge_error"
-                                                style="display: none;">Please enter details for Other Challenge</p>
+                                            <p class="validate_errors" id="otherchallenge_error" style="display: none;">Please enter details for Other Challenge</p>
                                         </div>
                                     </div>
 
                                     <div class="mb-5">
                                         <label class="form-label">Mother Tongue</label>
-                                        <select class="form-select" aria-label="Default select example"
-                                            name="mother_tongue" id="mother_tongue">
+                                        <select class="form-select" aria-label="Default select example" name="mother_tongue" id="mother_tongue">
                                             <option value="">Select</option>
                                         </select>
-                                        <p class="validate_errors" id="mother_tongue_error"
-                                            style="display: none;">Please select an option for Mother Tongue</p>
+                                        <p class="validate_errors" id="mother_tongue_error" style="display: none;">Please select an option for Mother Tongue</p>
                                     </div>
 
                                     <div class="next-btn text-center mb-4">
-                                        <a href="#" class="btn btn-primary" data-bs-toggle="modal"
-                                            data-bs-target="#register3" data-bs-dismiss="modal">Next</a>
+                                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#register3" data-bs-dismiss="modal">Next</a>
                                     </div>
                                 </form>
                             </div>
@@ -1534,30 +1427,25 @@
                     <div class="container">
                         <div class="register-popup-main">
                             <div class="register2-heading text-start mb-3">
-                                <button data-bs-dismiss="modal" data-bs-toggle="modal"
-                                    data-bs-target="#register2"><img src="images/back-symbol.webp"></button>
+                                <button data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#register2"><img src="images/back-symbol.webp"></button>
                             </div>
                             <div class="resgiter-form-div">
                                 <form action="#">
                                     <div class="mb-3">
                                         <label class="form-label">Education</label>
-                                        <select name="educationCategory" id="educationCategory"
-                                            class="form-select" aria-label="Default select example">
+                                        <select name="educationCategory" id="educationCategory" class="form-select" aria-label="Default select example">
                                             <option value="">SELECT</option>
                                         </select>
-                                        <p class="validate_errors" id="educationCategory_error"
-                                            style="display: none;">Please select an option for Education</p>
+                                        <p class="validate_errors" id="educationCategory_error" style="display: none;">Please select an option for Education</p>
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Education Details</label>
-                                        <input type="text" class="form-control" placeholder="Education Details"
-                                            name="education_details" id="education_details">
+                                        <input type="text" class="form-control" placeholder="Education Details" name="education_details" id="education_details">
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Employed In</label>
 
-                                        <select name="employed_in" class="form-select" id="employed_in"
-                                            aria-label="Default select example">
+                                        <select name="employed_in" class="form-select" id="employed_in" aria-label="Default select example">
                                             <option value="">SELECT</option>
                                             <option value="Government">Government</option>
                                             <option value="Defence">Defence</option>
@@ -1566,26 +1454,21 @@
                                             <option value="Self Employed">Self Employed</option>
                                             <option value="Not Working">Not Working</option>
                                         </select>
-                                        <p class="validate_errors" id="employed_in_error" style="display: none;">
-                                            Please select an option for EmployedIn</p>
+                                        <p class="validate_errors" id="employed_in_error" style="display: none;">Please select an option for EmployedIn</p>
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Occupation</label>
-                                        <select class="form-select" aria-label="Default select example"
-                                            name="occupation" id="occupation">
+                                        <select class="form-select" aria-label="Default select example" name="occupation" id="occupation">
                                             <option selected>Select</option>
                                         </select>
-                                        <p class="validate_errors" id="occupation_error" style="display: none;">
-                                            Please select an option for Occupation</p>
+                                        <p class="validate_errors" id="occupation_error" style="display: none;">Please select an option for Occupation</p>
                                     </div>
                                     <div class="mb-5">
                                         <label class="form-label">Employed / Occupation Details</label>
-                                        <input type="text" class="form-control" placeholder=""
-                                            name="OccupationinDetail" id="OccupationinDetail">
+                                        <input type="text" class="form-control" placeholder="" name="OccupationinDetail" id="OccupationinDetail">
                                     </div>
                                     <div class="next-btn text-center mb-4">
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#register4"
-                                            data-bs-dismiss="modal">Next</a>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#register4" data-bs-dismiss="modal">Next</a>
                                     </div>
                                 </form>
                             </div>
@@ -1604,60 +1487,46 @@
                     <div class="container">
                         <div class="register-popup-main">
                             <div class="register2-heading text-start mb-3">
-                                <button data-bs-dismiss="modal" data-bs-toggle="modal"
-                                    data-bs-target="#register3"><img src="images/back-symbol.webp"></button>
+                                <button data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#register3"><img src="images/back-symbol.webp"></button>
                             </div>
                             <div class="resgiter-form-div">
                                 <form action="#">
                                     <div class="mb-3">
                                         <label class="form-label">Father's Name / Guardian Name</label>
-                                        <input type="text" class="form-control" placeholder="Enter Name"
-                                            name="father_name" id="father_name">
-                                        <p class="validate_errors" id="father_name_error" style="display: none;">
-                                            Please enter details for Father Name</p>
+                                        <input type="text" class="form-control" placeholder="Enter Name" name="father_name" id="father_name">
+                                        <p class="validate_errors" id="father_name_error" style="display: none;">Please enter details for Father Name</p>
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Email</label>
-                                        <input type="text" class="form-control" placeholder="Enter Email"
-                                            name="emailID" id="emailID">
-                                        <p class="validate_errors" id="emailID_error" style="display: none;">
-                                            Please enter details for Email ID</p>
+                                        <input type="text" class="form-control" placeholder="Enter Email" name="emailID" id="emailID">
+                                        <p class="validate_errors" id="emailID_error" style="display: none;">Please enter details for Email ID</p>
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Mobile Number</label>
-                                        <input class="form-control" type="number" name="mobile_no"
-                                            id="mobile_no">
-                                        <p class="validate_errors" id="mobile_no_error" style="display: none;">
-                                            Please enter details for Mobile Number</p>
+                                        <input class="form-control" type="number" name="mobile_no" id="mobile_no">
+                                        <p class="validate_errors" id="mobile_no_error" style="display: none;">Please enter details for Mobile Number</p>
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Whatsapp Number</label>
-                                        <input class="form-control" type="number" name="whatsapp_no"
-                                            id="whatsapp_no">
-                                        <p class="validate_errors" id="whatsapp_no_error" style="display: none;">
-                                            Please enter details for Mobile Number</p>
+                                        <input class="form-control" type="number" name="whatsapp_no" id="whatsapp_no">
+                                        <p class="validate_errors" id="whatsapp_no_error" style="display: none;">Please enter details for Mobile Number</p>
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Monthly Income</label>
-                                        <select class="form-select" aria-label="Default select example"
-                                            name="monthly_income" id="monthly_income">
+                                        <select class="form-select" aria-label="Default select example" name="monthly_income" id="monthly_income">
                                             <option selected>Select</option>
                                         </select>
-                                        <p class="validate_errors" id="monthly_income_error"
-                                            style="display: none;">Please select Monthly Income</p>
+                                        <p class="validate_errors" id="monthly_income_error" style="display: none;">Please select Monthly Income</p>
                                     </div>
                                     <div class="mb-5">
                                         <label class="form-label">Bride / Groom Country Living In</label>
-                                        <select class="form-select" aria-label="Default select example"
-                                            name="country_living" id="country_living">
+                                        <select class="form-select" aria-label="Default select example" name="country_living" id="country_living">
                                             <option selected>Select</option>
                                         </select>
-                                        <p class="validate_errors" id="country_living_error"
-                                            style="display: none;">Please select Country Living</p>
+                                        <p class="validate_errors" id="country_living_error" style="display: none;">Please select Country Living</p>
                                     </div>
                                     <div class="next-btn text-center mb-4">
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#register5"
-                                            data-bs-dismiss="modal">Next</a>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#register5" data-bs-dismiss="modal">Next</a>
                                     </div>
                                 </form>
                             </div>
@@ -1676,8 +1545,7 @@
                     <div class="container">
                         <div class="register-popup-main">
                             <div class="register2-heading text-start mb-3">
-                                <button data-bs-dismiss="modal" data-bs-toggle="modal"
-                                    data-bs-target="#register4"><img src="images/back-symbol.webp"></button>
+                                <button data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#register4"><img src="images/back-symbol.webp"></button>
                                 <span><img src="images/user icon green.webp" style="width:30%;"></span>
                             </div>
                             <div class="register-form-div">
@@ -1686,38 +1554,27 @@
                                         <label class="form-label">Username</label>
                                         <div class="input-group">
                                             <span class="input-group-text"><i class="fas fa-user"></i></span>
-                                            <input type="text" class="form-control" name="username"
-                                                id="username">
-                                            <p class="validate_errors" id="username_error" style="display: none;">
-                                                Please enter a valid Username</p>
+                                            <input type="text" class="form-control" name="username" id="username">
+                                            <p class="validate_errors" id="username_error" style="display: none;">Please enter a valid Username</p>
                                         </div>
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Password</label>
                                         <div class="input-group">
-                                            <input type="password" class="form-control" name="password"
-                                                id="password">
-                                            <span class="input-group-text" id="togglePassword"
-                                                style="cursor:pointer;"><i class="fas fa-eye-slash"
-                                                    id="eyeIcon"></i></span>
-                                            <p class="validate_errors" id="password_error" style="display: none;">
-                                                Please enter a valid Password</p>
+                                            <input type="password" class="form-control" name="password" id="password">
+                                            <span class="input-group-text" id="togglePassword" style="cursor:pointer;"><i class="fas fa-eye-slash" id="eyeIcon"></i></span>
+                                            <p class="validate_errors" id="password_error" style="display: none;">Please enter a valid Password</p>
                                         </div>
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Confirm Password</label>
                                         <div class="input-group">
-                                            <input type="password" class="form-control" name="password2"
-                                                id="password2">
-                                            <span class="input-group-text" id="togglePassword2"
-                                                style="cursor:pointer;"><i class="fas fa-eye-slash"
-                                                    id="eyeIcon2"></i></span>
-                                            <p class="validate_errors" id="password2_error"
-                                                style="display: none;">Passwords do not match</p>
+                                            <input type="password" class="form-control" name="password2" id="password2">
+                                            <span class="input-group-text" id="togglePassword2" style="cursor:pointer;"><i class="fas fa-eye-slash" id="eyeIcon2"></i></span>
+                                            <p class="validate_errors" id="password2_error" style="display: none;">Passwords do not match</p>
                                         </div>
                                         <div class="form-text" style="color:#000;"><b>NOTE:</b></div>
-                                        <div class="form-text">*Username must be at least 6 characters and contain no
-                                            spaces</div>
+                                        <div class="form-text">*Username must be at least 6 characters and contain no spaces</div>
                                         <div class="form-text">Password must:</div>
                                         <div class="form-text">*Be at least 8 characters</div>
                                         <div class="form-text">*Include at least two of the following:</div>
@@ -1729,10 +1586,8 @@
                                     <div class="mb-5">
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox" id="termsCheckbox">
-                                            <label class="form-check-label" for="termsCheckbox">By clicking this
-                                                button, you accept our Terms and Conditions and Privacy Policy</label>
-                                            <p class="validate_errors" id="terms_error" style="display: none;">You
-                                                must accept the terms and conditions</p>
+                                            <label class="form-check-label" for="termsCheckbox">By clicking this button, you accept our Terms and Conditions and Privacy Policy</label>
+                                            <p class="validate_errors" id="terms_error" style="display: none;">You must accept the terms and conditions</p>
                                         </div>
                                     </div>
                                     <div class="next-btn text-center mb-4">
@@ -1755,8 +1610,7 @@
                     <div class="container">
                         <div class="register-popup-main">
                             <div class="register2-heading text-start mb-3">
-                                <button data-bs-dismiss="modal" data-bs-toggle="modal"
-                                    data-bs-target="#login1"><img src="images/back-symbol.webp"></button>
+                                <button data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#login1"><img src="images/back-symbol.webp"></button>
                             </div>
                             <div class="register-heading">
                                 <img src="images/kettimelam logo vector.webp" style="width:100px;height:100px">
@@ -1770,17 +1624,14 @@
                                     </div>
                                     <div class="mb-5">
                                         <label class="form-label">Enter Your Registered Mobile Number</label>
-                                        <input type="text" class="form-control" placeholder="Enter Mobile No "
-                                            name="mobile2">
+                                        <input type="text" class="form-control" placeholder="Enter Mobile No " name="mobile2">
                                     </div>
                                     <div class="row mb-4">
                                         <div class="col-6">
 
                                         </div>
                                         <div class="col-6 text-end">
-                                            <a href="#" style="color: #509938;" data-bs-toggle="modal"
-                                                data-bs-target="#forgot1" data-bs-dismiss="modal">Forget
-                                                Password</a>
+                                            <a href="#" style="color: #509938;" data-bs-toggle="modal" data-bs-target="#forgot1" data-bs-dismiss="modal">Forget Password</a>
                                         </div>
                                     </div>
 
@@ -1804,30 +1655,22 @@
                     <div class="container">
                         <div class="register-popup-main">
                             <div class="register2-heading text-start mb-3">
-                                <button data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#otp1"><img
-                                        src="images/back-symbol.webp"></button>
+                                <button data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#otp1"><img src="images/back-symbol.webp"></button>
                             </div>
                             <div class="resgiter-form-div">
                                 <form id="otpverify_form">
                                     <div class="mb-5">
                                         <label class="form-label">Enter 6-Digit Code</label>
-                                        <div class="form-text" style="font-size: 1rem;">Enter the 6-digit code you
-                                            received on your registered mobile number.</div>
+                                        <div class="form-text" style="font-size: 1rem;">Enter the 6-digit code you received on your registered mobile number.</div>
                                     </div>
                                     <div class="mb-5 otp-field d-flex justify-content-evenly">
                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                        <input type="number" class="form-control otp-input" maxlength="1"
-                                            name="otp_1">
-                                        <input type="number" class="form-control otp-input" maxlength="1"
-                                            name="otp_2">
-                                        <input type="number" class="form-control otp-input" maxlength="1"
-                                            name="otp_3">
-                                        <input type="number" class="form-control otp-input" maxlength="1"
-                                            name="otp_4">
-                                        <input type="number" class="form-control otp-input" maxlength="1"
-                                            name="otp_5">
-                                        <input type="number" class="form-control otp-input" maxlength="1"
-                                            name="otp_6">
+                                        <input type="number" class="form-control otp-input" maxlength="1" name="otp_1">
+                                        <input type="number" class="form-control otp-input" maxlength="1" name="otp_2">
+                                        <input type="number" class="form-control otp-input" maxlength="1" name="otp_3">
+                                        <input type="number" class="form-control otp-input" maxlength="1" name="otp_4">
+                                        <input type="number" class="form-control otp-input" maxlength="1" name="otp_5">
+                                        <input type="number" class="form-control otp-input" maxlength="1" name="otp_6">
                                     </div>
                                     <div class="col-6">
                                         <a href="#" style="color: #509938;">Resend OTP</a>
@@ -1851,8 +1694,7 @@
                     <div class="container">
                         <div class="register-popup-main">
                             <div class="register2-heading text-start mb-3">
-                                <button data-bs-dismiss="modal" data-bs-toggle="modal"
-                                    data-bs-target="#login1"><img src="images/back-symbol.webp"></button>
+                                <button data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#login1"><img src="images/back-symbol.webp"></button>
                             </div>
                             <div class="register-heading">
                                 <img src="images/kettimelam logo vector.webp" style="width:100px;height:100px">
@@ -1862,16 +1704,14 @@
                                 <form action="#">
                                     <div class="mb-5">
                                         <label class="form-label">Forgot Password</label>
-                                        <div class="form-text" style="font-size: 1rem;">Enter your mobile no for
-                                            verfication process...</div>
+                                        <div class="form-text" style="font-size: 1rem;">Enter your mobile no for verfication process...</div>
                                     </div>
                                     <div class="mb-5">
                                         <label class="form-label">Mobile No</label>
                                         <input type="text" class="form-control" placeholder="Enter Mobile No ">
                                     </div>
                                     <div class="next-btn text-center mb-4">
-                                        <a href="#" data-bs-dismiss="modal" data-bs-toggle="modal"
-                                            data-bs-target="#forgot2">Continue</a>
+                                        <a href="#" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#forgot2">Continue</a>
                                     </div>
                                 </form>
                             </div>
@@ -1890,15 +1730,13 @@
                     <div class="container">
                         <div class="register-popup-main">
                             <div class="register2-heading text-start mb-3">
-                                <button data-bs-dismiss="modal" data-bs-toggle="modal"
-                                    data-bs-target="#forgot1"><img src="images/back-symbol.webp"></button>
+                                <button data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#forgot1"><img src="images/back-symbol.webp"></button>
                             </div>
                             <div class="resgiter-form-div">
                                 <form action="#">
                                     <div class="mb-5">
                                         <label class="form-label">Enter 6 Degits Code</label>
-                                        <div class="form-text" style="font-size: 1rem;">Enter the 6 degits code that
-                                            you received your email or mobile</div>
+                                        <div class="form-text" style="font-size: 1rem;">Enter the 6 degits code that you received your email or mobile</div>
                                     </div>
                                     <div class="mb-5 otp-field d-flex justify-content-evenly">
                                         <input type="number" class="form-control">
@@ -1909,8 +1747,7 @@
                                         <input type="number" class="form-control">
                                     </div>
                                     <div class="next-btn text-center mb-4">
-                                        <a data-bs-dismiss="modal" data-bs-toggle="modal"
-                                            data-bs-target="#forgot3">Continue</a>
+                                        <a data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#forgot3">Continue</a>
                                     </div>
                                 </form>
                             </div>
@@ -1929,8 +1766,7 @@
                     <div class="container">
                         <div class="register-popup-main">
                             <div class="register2-heading text-start mb-3">
-                                <button data-bs-dismiss="modal" data-bs-toggle="modal"
-                                    data-bs-target="#forgot2"><img src="images/back-symbol.webp"></button>
+                                <button data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#forgot2"><img src="images/back-symbol.webp"></button>
                             </div>
                             <div class="resgiter-form-div">
                                 <form action="#">
@@ -1941,18 +1777,14 @@
                                         <label class="form-label">Enter New Password</label>
                                         <div class="input-group">
                                             <input type="password" class="form-control" id="password3">
-                                            <span class="input-group-text" id="togglePassword3"
-                                                style="cursor:pointer;"><i class="fas fa-eye-slash"
-                                                    id="eyeIcon3"></i></span>
+                                            <span class="input-group-text" id="togglePassword3" style="cursor:pointer;"><i class="fas fa-eye-slash" id="eyeIcon3"></i></span>
                                         </div>
                                     </div>
                                     <div class="mb-5">
                                         <label class="form-label">Re-Enter New Password</label>
                                         <div class="input-group">
                                             <input type="password" class="form-control" id="password4">
-                                            <span class="input-group-text" id="togglePassword4"
-                                                style="cursor:pointer;"><i class="fas fa-eye-slash"
-                                                    id="eyeIcon4"></i></span>
+                                            <span class="input-group-text" id="togglePassword4" style="cursor:pointer;"><i class="fas fa-eye-slash" id="eyeIcon4"></i></span>
                                         </div>
                                     </div>
                                     <div class="next-btn text-center mb-4">
@@ -1979,9 +1811,8 @@
                         <img src="images/logo.webp" alt="Logo">
                     </a>
                     <!-- Navbar Toggler -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <!-- Navbar Items -->
@@ -1989,13 +1820,10 @@
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
                                 <a class="nav-link" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#login1">Login <i class="fal fa-user-check"
-                                        style="margin-left: 10px;"></i></a>
+                                    data-bs-target="#login1">Login <i class="fal fa-user-check" style="margin-left: 10px;"></i></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#register1">Register <i class="fal fa-user-plus"
-                                        style="margin-left: 10px;"></i></a>
+                                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#register1">Register <i class="fal fa-user-plus" style="margin-left: 10px;"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -2082,15 +1910,7 @@
 
 <script>
     ////// LOG IN /////
-    // function LoginTheUser(){
-    //     if($("#user_name").val() == ''){
 
-    //     }else if($("#password").val() == ''){
-
-    //     }else{
-    //         return true;
-    //     }
-    // }
     function LoginTheUser() {
         var formdata = new FormData($('#login_form')[0]);
         $.ajax({
@@ -2101,7 +1921,7 @@
             contentType: false,
             success: function(response) {
                 if (response['code'] == 200) {
-                    
+
                     const date = new Date();
                     date.setTime(date.getTime() + (1 * 24 * 60 * 60 * 1000));
                     const expires = `expires=${date.toUTCString()}`;
@@ -2414,7 +2234,7 @@
 
     //     // Make AJAX request to fetch data
     //     $.ajax({
-    //         url: "https://webapi.kettimelammatrimony.com/api/religion",
+    //         url: 'https://webapi.kettimelammatrimony.com/api/religion',
     //         type: 'GET',
     //         success: function(response) {
     //             // Add new options from API response
@@ -2461,7 +2281,7 @@
     function populateSubReligionDropdown(selectedReligion) {
         // Make AJAX request to fetch sub-religion data based on the selected religion
         $.ajax({
-            url: "https://webapi.kettimelammatrimony.com/api/subreligion?religion_id=" + selectedReligion,
+            url: 'https://webapi.kettimelammatrimony.com/api/subreligion?religion_id=' + selectedReligion,
             type: 'GET',
             success: function(response) {
                 // Clear existing options
@@ -2472,8 +2292,7 @@
                     $('#sub_religion').append('<option value="" selected>Select Sub-Religion</option>');
                     // Add new options from API response
                     response['sub-religion'].forEach(function(item) {
-                        $('#sub_religion').append('<option value="' + item.id + '">' + item.name +
-                            '</option>');
+                        $('#sub_religion').append('<option value="' + item.id + '">' + item.name + '</option>');
                     });
                     // Add an "Others" option
                     $('#sub_religion').append('<option value="others">Others</option>');
@@ -2503,7 +2322,7 @@
     $(document).ready(function() {
         // Make AJAX request to fetch caste data
         $.ajax({
-            url: "https://webapi.kettimelammatrimony.com/api/caste",
+            url: 'https://webapi.kettimelammatrimony.com/api/caste',
             type: 'GET',
             success: function(response) {
                 // Check if the response contains the expected data structure
@@ -2511,8 +2330,7 @@
                     // Iterate over the data array
                     response.data.forEach(function(item) {
                         // Append the caste name to the select dropdown
-                        $('#caste').append('<option value="' + item.caste.caste_id + '">' +
-                            item.caste.castename + '</option>');
+                        $('#caste').append('<option value="' + item.caste.caste_id + '">' + item.caste.castename + '</option>');
                     });
 
                     // Trigger change event on caste dropdown to fetch subcastes for the selected caste
@@ -2537,7 +2355,7 @@
             if (selectedCaste !== '') {
                 // Make AJAX request to fetch subcaste data based on the selected caste
                 $.ajax({
-                    url: "https://webapi.kettimelammatrimony.com/api/subcaste",
+                    url: 'https://webapi.kettimelammatrimony.com/api/subcaste',
                     type: 'GET',
                     data: {
                         caste_id: selectedCaste
@@ -2546,29 +2364,23 @@
                         // Clear existing options
                         $('#sub_caste').empty();
                         // Add an empty option
-                        $('#sub_caste').append(
-                            '<option value="" selected>Select Sub Caste</option>');
+                        $('#sub_caste').append('<option value="" selected>Select Sub Caste</option>');
                         // Check if the response contains the expected data structure
-                        if (response.code === 200 && response.sub_caste && response
-                            .sub_caste[0] && response.sub_caste[0].length > 0) {
+                        if (response.code === 200 && response.sub_caste && response.sub_caste[0] && response.sub_caste[0].length > 0) {
                             // Iterate over the data array
                             response.sub_caste[0].forEach(function(item) {
                                 // Append the subcaste name to the select dropdown
-                                $('#sub_caste').append('<option value="' + item.id +
-                                    '">' + item.caste + '</option>');
+                                $('#sub_caste').append('<option value="' + item.id + '">' + item.caste + '</option>');
                             });
                         } else {
                             // Handle empty or invalid response for subcaste dropdown
-                            $('#sub_caste').html(
-                                '<option value="">No subcaste available</option>');
+                            $('#sub_caste').html('<option value="">No subcaste available</option>');
                         }
                     },
                     error: function(xhr, status, error) {
                         console.error('Error fetching subcaste data:', error);
                         // Handle error fetching subcaste data
-                        $('#sub_caste').html(
-                            '<option value=""> Select Sub Caste</option>'
-                        ); ///Error loading subcaste data
+                        $('#sub_caste').html('<option value=""> Select Sub Caste</option>'); ///Error loading subcaste data
                     }
                 });
             } else {
@@ -2613,7 +2425,7 @@
 
     //     // Make AJAX request to fetch data
     //     $.ajax({
-    //         url: "https://webapi.kettimelammatrimony.com/api/mother_tongue",
+    //         url: 'https://webapi.kettimelammatrimony.com/api/mother_tongue',
     //         type: 'GET',
     //         success: function(response) {
     //             // Add new options from API response
@@ -2633,7 +2445,7 @@
     $(document).ready(function() {
         // Make AJAX request to fetch data
         $.ajax({
-            url: "https://webapi.kettimelammatrimony.com/api/education",
+            url: 'https://webapi.kettimelammatrimony.com/api/education',
             type: 'GET',
             success: function(response) {
                 // Clear existing options in the select element
@@ -2645,14 +2457,12 @@
                 // Iterate over each item in the response data
                 response.data.forEach(function(item) {
                     // Add the main education as an option
-                    $('#educationCategory').append('<optgroup label="' + item.education
-                        .name + '">');
+                    $('#educationCategory').append('<optgroup label="' + item.education.name + '">');
 
                     // Iterate over each sub-education for the main education
                     item.education.sub_education.forEach(function(subItem) {
                         // Add each sub-education as an option under the main education
-                        $('#educationCategory').append('<option value="' + subItem
-                            .id + '">' + subItem.name + '</option>');
+                        $('#educationCategory').append('<option value="' + subItem.id + '">' + subItem.name + '</option>');
                     });
 
                     $('#educationCategory').append('</optgroup>');
@@ -2671,7 +2481,7 @@
     $(document).ready(function() {
         // Make AJAX request to fetch data
         $.ajax({
-            url: "https://webapi.kettimelammatrimony.com/api/occupation",
+            url: 'https://webapi.kettimelammatrimony.com/api/occupation',
             type: 'GET',
             success: function(response) {
                 // Clear existing options in the select element
@@ -2688,8 +2498,7 @@
                     // Iterate over each sub-occupation for the main occupation
                     item.occupation.sub_occupation.forEach(function(subItem) {
                         // Add each sub-occupation as an option under the main occupation
-                        optgroup.append('<option value="' + subItem.id + '">' +
-                            subItem.name + '</option>');
+                        optgroup.append('<option value="' + subItem.id + '">' + subItem.name + '</option>');
                     });
 
                     // Append the completed optgroup to the select element
@@ -2721,8 +2530,7 @@
             success: function(response) {
                 // Add new options from API response
                 response.data.income.forEach(function(item) {
-                    $('#monthly_income').append('<option value="' + item.id + '">' + item
-                        .income + '</option>');
+                    $('#monthly_income').append('<option value="' + item.id + '">' + item.income + '</option>');
                 });
             },
             error: function(xhr, status, error) {
@@ -2748,8 +2556,7 @@
             success: function(response) {
                 // Add new options from API response
                 response.data.countries.forEach(function(item) {
-                    $('#country_living').append('<option value="' + item.id + '">' + item
-                        .country2 + '</option>');
+                    $('#country_living').append('<option value="' + item.id + '">' + item.country2 + '</option>');
                 });
             },
             error: function(xhr, status, error) {
@@ -2768,7 +2575,7 @@
 
         // AJAX request to save OTP
         $.ajax({
-            url: "https://webapi.kettimelammatrimony.com/api/saveotp",
+            url: 'https://webapi.kettimelammatrimony.com/api/saveotp',
             method: 'POST',
             data: formdata,
             dataType: "json",
@@ -2801,7 +2608,7 @@
 
         // AJAX request to resend OTP
         $.ajax({
-            url: "https://webapi.kettimelammatrimony.com/api/resend-otp", // Update this URL to match your route
+            url: 'https://webapi.kettimelammatrimony.com/api/resend-otp', // Update this URL to match your route
             method: 'POST',
             data: formdata,
             dataType: 'json',
@@ -2860,8 +2667,7 @@
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
-                        'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]')
-                            .getAttribute('content')
+                        'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
                     },
                     body: JSON.stringify(otpData)
                 })

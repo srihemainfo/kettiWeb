@@ -1,3 +1,11 @@
+    <style>
+    .list-sec ul li.active {
+    border-right: 5px solid #e34257!imporatant;
+    padding: 12px 0;
+  
+}
+    </style>
+    
             <div class="col-lg-3 mb-4 bg-sec" id="sidebar">
                     <div class="green-bg" >
                         <div class="profile-main text-end">
@@ -66,18 +74,21 @@
                                         </span>
                                         <span class="description">Location Details</span>
                                     </li>
-                                    <li>
+                                    <li id="phy-detail" class="{{ request()->routeIs('physical-attributee') ? 'active' : '' }}" onclick="window.location.href='{{ route('physical-attributee') }}'" style="cursor: pointer;">
+
                                         <span class="icon"> <img src="images/after login/icon edit profile 9.webp">
                                         </span>
                                         <span class="description">Physical Attributes</span>
                                     </li>
                                     
-                                    <li>
+                              <li id="phy-detail" class="{{ request()->routeIs('intercaste-parents') ? 'active' : '' }}" onclick="window.location.href='{{ route('intercaste-parents') }}'" style="cursor: pointer;">
+
                                         <span class="icon"> <img src="images/after login/icon edit profile 9.webp">
                                         </span>
                                         <span class="description">For Intercaste Parents</span>
                                     </li>
-                                    <li>
+                        <li id="phy-detail" class="{{ request()->routeIs('others') ? 'active' : '' }}" onclick="window.location.href='{{ route('others') }}'" style="cursor: pointer;">
+
                                         <span class="icon"> <img src="images/after login/icon edit profile 9.webp">
                                         </span>
                                         <span class="description">Others</span>

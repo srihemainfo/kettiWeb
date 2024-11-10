@@ -9,9 +9,7 @@
   max-width: 100%;
 }
 .list-sec ul li.active {
-    background: aquamarine;
-    padding: 12px 0;
-    border-radius: 14px;
+     border-right: 5px solid #e34257;
 }
 .progress-bar {
   height: 17px;
@@ -106,6 +104,9 @@
     color: #fff;
     padding: 10px;
     border-radius: 10px;
+}
+.fm-subhead{
+    font-size:20px;
 }
     </style>
 </head>
@@ -215,12 +216,23 @@
                             <form class="mt-3">
                                 <div class="row">
                                     <div class="mb-3">
-                                <p>Basic Profile Information</p>
+                                <p class="fm-subhead">Basic Profile Information</p>
                             </div>
                                     <div class="col-md-6 mb-3">
                                 <label class="form-label" style="color: #868686;">Marital Status</label>
-                                <input type="text" class="form-control">
-                                </div><div class="col-md-6 mb-3">
+                                <select class="form-select" name="marital" id="marital">
+                                <option value="">Select Marital Status</option>
+                                <option value="Never Married">Unmarried</option>
+                                <option value="Widow with children">Widow / Widower with Children / Child</option>
+                                <option value="Widow without children">Widow / Widower without Children / Child</option>
+                                <option value="Divorce with children">Divorce with Children / Child</option>
+                                <option value="Divorce without children">Divorce without Children / Child</option>
+                                <option value="Awaiting Divorce with children">Awaiting Divorce with Children / Child</option>
+                                <option value="Awaiting Divorce without children">Awaiting Divorce without Children / Child</option>
+                             </select>
+                                </div>
+                                
+                                <div class="col-md-6 mb-3">
                                       <label class="form-label" style="color: #868686;">Age</label>
                                 <select class="form-select" aria-label="Default select example">
                                     <option selected="">Select</option>
@@ -238,7 +250,11 @@
                                      <div class="col-md-6 mb-3">
                                            <label class="form-label" style="color: #868686;">Physical Status</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option value="">Select</option>
+                                    <option value="Doesn't Matter">Doesn't Matter</option>
+		                         	<option value="Normal">Normal</option>
+			                       <option value="Physically challenged">Physically Challenged</option>
+
                                 </select>
                                     </div>
                                     
@@ -247,11 +263,121 @@
                                 <input type="text" class="form-control" value="Test">
                                     </div>
                                     <div class="mb-3">
-                                <p>Religion Preference</p>
+                                <p class="fm-subhead">Religion Preference</p>
                             </div>
                                          <div class="col-md-6 mb-3">
                                           <label class="form-label" style="color: #868686;">Mother Tongue</label>
-                                <input type="text" class="form-control" value="Arunachali">
+                                <select class="form-select">
+                                    <option value="any">Select Mother Tongue</option>
+
+							<option value="69">Angika</option>
+
+							<option value="5">Arunachali</option>
+
+							<option value="4">Assamese</option>
+
+							<option value="6">Awadhi</option>
+
+							<option value="70">Badaga</option>
+
+							<option value="7">Bengali</option>
+
+							<option value="8">Bhojpuri</option>
+
+							<option value="9">Bihari</option>
+
+							<option value="10">Brij</option>
+
+							<option value="11">Chatisgarhi</option>
+
+							<option value="12">Dogri</option>
+
+							<option value="13">English</option>
+
+							<option value="14">French</option>
+
+							<option value="15">Garhwali</option>
+
+							<option value="16">Garo</option>
+
+							<option value="17">Gujarati</option>
+
+							<option value="18">Haryanvi</option>
+
+							<option value="19">Himachali/Pahari</option>
+
+							<option value="20">Hindi</option>
+
+							<option value="21">Kanauji</option>
+
+							<option value="22">Kannada</option>
+
+							<option value="23">Kashmiri</option>
+
+							<option value="24">Khandesi</option>
+
+							<option value="25">Khasi</option>
+
+							<option value="26">Konkani</option>
+
+							<option value="27">Koshali</option>
+
+							<option value="28">Kumaoni</option>
+
+							<option value="29">Kutchi</option>
+
+							<option value="30">Ladacki</option>
+
+							<option value="31">Lepcha</option>
+
+							<option value="32">Magahi</option>
+
+							<option value="33">Maithili</option>
+
+							<option value="34">Malayalam</option>
+
+							<option value="35">Manipuri</option>
+
+							<option value="36">Marathi</option>
+
+							<option value="37">Marwari</option>
+
+							<option value="38">Miji</option>
+
+							<option value="39">Mizo</option>
+
+							<option value="40">Monpa</option>
+
+							<option value="41">Nepali</option>
+
+							<option value="62">Nicobarese</option>
+
+							<option value="63">Oriya</option>
+
+							<option value="56">Others</option>
+
+							<option value="44">Punjabi</option>
+
+							<option value="49">Rajasthani</option>
+
+							<option value="67">Sanskrit</option>
+
+							<option value="68">Santhali</option>
+
+							<option value="48">Sindhi</option>
+
+							<option value="50">Sourashtra</option>
+
+							<option value="51">Tamil</option>
+
+							<option value="52">Telugu</option>
+
+							<option value="53">Tripuri</option>
+
+							<option value="54">Tulu</option>
+
+							<option value="55">Urdu</option>
+                                </select>
                                 </div>
                                     <div class="col-md-6 mb-3">
                                        <label class="form-label" style="color: #868686;">Caste</label>
@@ -280,7 +406,7 @@
                                 <input type="text" class="form-control" value="Chevvai Dosham, Kala Sarpa Dosham">
                                 </div>
                                 <div class="mb-3">
-                                <p>Professional Life</p>
+                                <p class="fm-subhead">Professional Life</p>
                                 </div>
                                   <div class="col-md-6 mb-3 ">
                                     <label class="form-label" style="color: #868686;">Education</label>
@@ -319,7 +445,7 @@
                                 <input type="text" class="form-control" value="Chennai">
                                 </div>
                                 <div class="mb-3">
-                                  <p>Habits Preference</p>
+                                  <p class="fm-subhead">Habits Preference</p>
                                 </div>
                                    <div class="col-md-6 mb-3">
                                   <label class="form-label" style="color: #868686;">Eating Habits</label>
@@ -345,7 +471,7 @@
                                <label class="form-label" style="color: #868686;">About My Family</label>
                                 <input type="text" class="form-control">
                                 </div>
-                                   <div class="row mt-4">
+                                   <div class="row mt-4 mb-4">
                                         <div class="next-btn text-center ">
                                         <a href="#">Save</a>
                                     </div>

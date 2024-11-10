@@ -1,14 +1,13 @@
 <head>
   
     <style>
+    
         .wrapper {
   width: 520px;
   max-width: 100%;
 }
 .list-sec ul li.active {
-    background: aquamarine;
-    padding: 12px 0;
-    border-radius: 14px;
+   border-right: 5px solid #e34257;
 }
 .progress-bar {
   height: 17px;

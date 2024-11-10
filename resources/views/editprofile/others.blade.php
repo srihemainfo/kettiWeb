@@ -1,15 +1,14 @@
 <head>
   
     <style>
+    .list-sec ul li.active {
+   border-right: 5px solid #e34257;
+}
         .wrapper {
   width: 520px;
   max-width: 100%;
 }
-.list-sec ul li.active {
-    background: aquamarine;
-    padding: 12px 0;
-    border-radius: 14px;
-}
+
 .progress-bar {
   height: 17px;
   width: 100%;
@@ -213,22 +212,41 @@
                                     <div class="col-md-6 mb-3">
                                           <label class="form-label" style="color: #868686;">Personal Values</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option value="">Select</option>
                                     
+                              <option value="">Select </option>
+                              <option value="Traditional">Traditional</option>
+                
+                              <option value="Moderate">Moderate</option>
+                
+                              <option value="Liberal">Liberal</option>
                                 </select>
                                 </div><div class="col-md-6 mb-3">
                                    <label class="form-label" style="color: #868686;">Social</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option value="">Select</option>
-                                    
+                                      <option value="">Select </option>
+                        
+                                    <option  value="Introvert">Introvert</option>
+                        
+                        
+                                    <option  value="People Person">People Person</option>
+                        
+                        
+                                    <option  value="Adjustable">Adjustable</option>
+                        
+                        
+                                    <option  value="I like the way I do things">I like the way I do things</option>
                                 </select>
                                 </div>
                                    
                                     <div class="col-md-6 mb-3">
                                           <label class="form-label" style="color: #868686;">Interested in Setting Overseas</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option value="">Select</option>
-                                    
+                                    <option value="">Select </option>
+                    
+                                <option value="yes">Yes</option>
+                    
+                                &nbsp;&nbsp;&nbsp;
+                                <option value="no">No</option>
                                 </select>
                                     </div>
                                     

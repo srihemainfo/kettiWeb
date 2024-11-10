@@ -1,8 +1,5 @@
 <head>
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.6/dist/js/splide.min.js"></script>
-    
     <style>
         .wrapper {
   width: 520px;
@@ -218,7 +215,9 @@
                                 </div><div class="col-md-6 mb-3">
                                    <label class="form-label" style="color: #868686;">Family Type*</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                  <option value="">Select Family Type</option>
+				            	  <option value="Joint family">Joint family</option>
+					              <option value="Nuclear family">Nuclear family</option>
                                   
                                 </select>
                                 </div>
@@ -226,87 +225,152 @@
                                     <div class="col-md-6 mb-3">
                                           <label class="form-label" style="color: #868686;">Family Status*</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option value="">Select Family Status</option>
+                                    <option value="Middle Class">Middle Class</option>
+					                <option value="Upper Middle Class">Upper Middle Class</option>
+					                <option value="High Class">High Class</option>
+					                <option value="Rich / Affluent">Rich / Affluent</option>
                                   
                                 </select>
                                     </div>
                                     
                                      <div class="col-md-6 mb-3">
                                            <label class="form-label" style="color: #868686;">Family God*</label>
-                                <input type="text" class="form-control" >
-                                   
-                               
+                                      <input type="text" class="form-control" >
+ 
                                     </div>
                                     
                                          <div class="col-md-6 mb-3">
                                         <label class="form-label" style="color: #868686;">Native Place*</label>
-                                <input type="text" class="form-control" value="" placeholder="Enter Your Native Place">
-                                    
-                                
+                                     <input type="text" class="form-control" value="" placeholder="Enter Your Native Place">
                                     </div>
+                                    
                                          <div class="col-md-6 mb-3">
                                           <label class="form-label" style="color: #868686;">Father Name*</label>
-                                <input type="text" class="form-control" >
-                                
-                              
-                                    </div>
+                                       <input type="text" class="form-control" >
+                                     </div>
                                     <div class="col-md-6 mb-3">
                                         
                                   <label class="form-label" style="color: #868686;">Father Occupation*</label>
                                 <input type="text" class="form-control">
-                        
-                            
-                                    </div>
+                                   </div>
+                                   
+                                   
                                     <div class="col-md-6 mb-3">
                                          <label class="form-label" style="color: #868686;">Father's Status*</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option selected="">Select Father's Status</option>
+					                <option value="Healthy">Healthy</option>
+					                <option value="Unhealthy">Unhealthy</option>
+					                <option value="Passed Away">Passed Away</option>
                                 </select>
                                     </div>
+                                    
+                                     <div class="col-md-6 mb-3">
+                                          <label class="form-label" style="color: #868686;">Mother Name*</label>
+                                       <input type="text" class="form-control" >
+                                     </div>
+                                    <div class="col-md-6 mb-3">
+                                        
+                                  <label class="form-label" style="color: #868686;">Mother Occupation*</label>
+                                <input type="text" class="form-control">
+                                   </div>
+                                   
                                     <div class="col-md-6 mb-3">
                                          <label class="form-label" style="color: #868686;">Mother's Status</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option selected="">Select Mother's Status</option>
+                                    <option value="Healthy">Healthy</option>
+					                <option value="Unhealthy">Unhealthy</option>
+					                <option value="Passed Away">Passed Away</option>
                                 </select>
                                     </div>
                                     
                                     <div class="col-md-6 mb-3">
                                          <label class="form-label" style="color: #868686;">Birth Order</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option selected="">Select Birth Order</option>
+                                    <option value="1">2 </option>
+                                    <option value="2">2 </option>
+                                    <option value="3">3 </option>
+                                    <option value="4">4 </option>
+                                    <option value="5">5 </option>
+                                    <option value="6">6 </option>
+                                    <option value="7">7 </option>
+                                    <option value="8">8 </option>
                                     
                                 </select>
                                     </div>
                                 <div class="col-md-6 mb-3 ">
                                         <label class="form-label" style="color: #868686;">No. Of Elder Brothers</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option selected="">Select No. Of Elder Brothers</option>
+                                    <option value="1">2 </option>
+                                    <option value="2">2 </option>
+                                    <option value="3">3 </option>
+                                    <option value="4">4 </option>
+                                    <option value="5">5 </option>
+                                    <option value="6">6 </option>
+                                    <option value="7">7 </option>
+                                    <option value="8">8 </option>
                                 </select>
                                 </div>
                                  <div class="col-md-6 mb-3">
                                         <label class="form-label" style="color: #868686;">Elder Brothers Married</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                   <option selected="">Select Brothers Married</option>
+                                    <option value="1">2 </option>
+                                    <option value="2">2 </option>
+                                    <option value="3">3 </option>
+                                    <option value="4">4 </option>
+                                    <option value="5">5 </option>
+                                    <option value="6">6 </option>
+                                    <option value="7">7 </option>
+                                    <option value="8">8 </option>
                                    
                                 </select>
                                 </div>
                                  <div class="col-md-6 mb-3">
                                         <label class="form-label" style="color: #868686;">No. Of Elder Sisters</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option selected="">No. Of Elder Sisters</option>
+                                    <option value="1">2 </option>
+                                    <option value="2">2 </option>
+                                    <option value="3">3 </option>
+                                    <option value="4">4 </option>
+                                    <option value="5">5 </option>
+                                    <option value="6">6 </option>
+                                    <option value="7">7 </option>
+                                    <option value="8">8 </option>
                                   
                                 </select>
                                 </div>
                                  <div class="col-md-6 mb-3">
                                         <label class="form-label" style="color: #868686;">Elder Sisters Married</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option value="">Elder Sisters Married</option>
+                                    <option value="1">2 </option>
+                                    <option value="2">2 </option>
+                                    <option value="3">3 </option>
+                                    <option value="4">4 </option>
+                                    <option value="5">5 </option>
+                                    <option value="6">6 </option>
+                                    <option value="7">7 </option>
+                                    <option value="8">8 </option>
                                 </select>
                                 </div>
                                  <div class="col-md-6 mb-3">
                                        <label class="form-label" style="color: #868686;">No. Of Younger Brothers</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option value="">No. Of Younger Brothers</option>
+                                    <option value="1">2 </option>
+                                    <option value="2">2 </option>
+                                    <option value="3">3 </option>
+                                    <option value="4">4 </option>
+                                    <option value="5">5 </option>
+                                    <option value="6">6 </option>
+                                    <option value="7">7 </option>
+                                    <option value="8">8 </option>
                                 </select>
                                 </div>
                                  <div class="col-md-6 mb-3">
@@ -330,19 +394,25 @@
                                 <div class="col-md-6 mb-3">
                                          <label class="form-label" style="color: #868686;">Do You Have A Bike?</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option value="">Select  Have A Bike?</option>
+                                    <option value="yes">yes</option>
+                                    <option value="Nes">No </option>
                                 </select>
                                 </div>
                                 <div class="col-md-6 mb-3">
                                         <label class="form-label" style="color: #868686;">Do You Have A Car?</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option value="">Select</option>
+                                    <option value="yes">yes</option>
+                                    <option value="Nes">No </option>
                                 </select>
                                 </div>
                                 <div class="col-md-6 mb-3">
                                         <label class="form-label" style="color: #868686;">Do You Have A Own Flat / House?</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option value="">Select Flat / House</option>
+                                    <option value="yes">yes</option>
+                                    <option value="Nes">No </option>
                                 </select>
                                 </div>
                                 <div class="col-md-6 mb-3">
@@ -353,7 +423,14 @@
                                 </div>
                                 <div class="col-md-6 mb-3">
                                           <label class="form-label" style="color: #868686;">Proof of Identity</label>
-                                <input type="text" class="form-control">
+                                           <select class="form-select" aria-label="Default select example">
+                                    <option value="">Select Proof of Identity</option>
+                                <option value="Voter">Voter ID</option>
+				                <option value="Driving">Driving License</option>
+				                <option value="Pan">Pan Card</option>
+				                <option value="Passport">Passport</option>
+				                <option value="Aadhar">Aadhar No</option>
+				                </select>
                                 </div>
                                  <div class="col-md-6 mb-3">
                                          <label class="form-label" style="color: #868686;">Family Income Monthly</label>

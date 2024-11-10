@@ -1,17 +1,11 @@
 <head>
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.6/dist/js/splide.min.js"></script>
-    
-    <style>
+  <style>
         .wrapper {
   width: 520px;
   max-width: 100%;
 }
 .list-sec ul li.active {
-    background: aquamarine;
-    padding: 12px 0;
-    border-radius: 14px;
+  border-right: 5px solid #e34257;
 }
 .progress-bar {
   height: 17px;
@@ -232,7 +226,11 @@
                                      <div class="col-md-6 mb-3">
                                                <label class="form-label" style="color: #868686;">Occupation</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option value="">Select Occupation</option>
+                                    <option value="">Engineer</option>
+                                    <option value="">law</option>
+                                    <option value="">Agriculture</option>
+                                    
                           
                                 </select>
                                     </div>
@@ -270,7 +268,7 @@
                                 <input type="text" class="form-control">
                                     </div>
                                     
-                                   <div class="row mt-4">
+                                   <div class="row mt-4 mb-4">
                                         <div class="next-btn text-center ">
                                         <a href="#">Save</a>
                                     </div>

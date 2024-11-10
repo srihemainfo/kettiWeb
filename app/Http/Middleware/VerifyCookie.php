@@ -16,7 +16,7 @@ class VerifyCookie
     public function handle(Request $request, Closure $next): Response
     {
         if (!isset($_COOKIE['user-token'])) {
-            return '/';
+            return redirect()->route('index');
         }
         return $next($request);
     }

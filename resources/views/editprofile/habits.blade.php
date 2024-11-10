@@ -6,9 +6,7 @@
   max-width: 100%;
 }
 .list-sec ul li.active {
-    background: aquamarine;
-    padding: 12px 0;
-    border-radius: 14px;
+   border-right: 5px solid #e34257;
 }
 .progress-bar {
   height: 17px;
@@ -235,7 +233,7 @@
                                     
                                      
                                     
-                                   <div class="row mt-4">
+                                   <div class="row mt-4 mb-4">
                                         <div class="next-btn text-center ">
                                         <a href="#">Save</a>
                                     </div>

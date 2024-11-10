@@ -1,17 +1,12 @@
 <head>
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.6/dist/js/splide.min.js"></script>
-    
     <style>
         .wrapper {
   width: 520px;
   max-width: 100%;
 }
 .list-sec ul li.active {
-    background: aquamarine;
-    padding: 12px 0;
-    border-radius: 14px;
+     border-right: 5px solid #e34257;
 }
 .progress-bar {
   height: 17px;
@@ -219,20 +214,29 @@
                                 </div><div class="col-md-6 mb-3">
                                     <label class="form-label" style="color: #868686;">Birth Day</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Monday</option>
+                                      <option value="">Select Birth Day</option>
+                                    <option value="Monday">Monday</option>
+                                    <option value="Tuesday">Tuesday</option>
+                                    <option value="Wednesday">Wednesday</option>
+                                    <option value="Thursday">Thursday</option>
+                                    <option value="Firday">Firday</option>
+                                    <option value="Saturday">Saturday</option>
                             
                                 </select>
                                 </div>
                                    
                                     <div class="col-md-6 mb-3">
                                               <label class="form-label" style="color: #868686;">Time Of Birth</label>
-                                <input type="time" class="form-control" value="12">
+                                      <input type="time" class="form-control" value="12">
                                     </div>
                                     
                                      <div class="col-md-6 mb-3">
                                             <label class="form-label" style="color: #868686;">Country Of Birth</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option value="">Select Country</option>
+                                     <option value="India">India</option>
+                                      <option value="London">London</option>
+                                       <option value="United States">United States</option>
                                    
                                 </select>
                                     </div>
@@ -246,23 +250,44 @@
                                     </div>
                                          <div class="col-md-6 mb-3">
                                          <label class="form-label" style="color: #868686;">Place Of Birth</label>
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
-                                    <option value="male">Male</option>
-                                    <option value="female">Female</option>
-                                </select>
+                                 <input type="text" class="form-control" value="Avadi">
                                 </div>
                                     <div class="col-md-6 mb-3">
                                      <label class="form-label" style="color: #868686;">Gothram</label>
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
-                                   
-                                </select>
+                                <input type="text" class="form-control" value="" placeholder="enter a gothram">
                                     </div>
                                     <div class="col-md-6 mb-3">
                                            <label class="form-label" style="color: #868686;">Star</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected="">Select</option>
+                                    <option value="">Select star</option>
+                                    <option value="28">Ashwini</option>
+											<option value="2">Bharani</option>
+											<option value="3">Karthigai</option>
+											<option value="4">Rohini</option>
+											<option value="5">Mirugasiridam</option>
+											<option value="6">Thiruvathirai</option>
+											<option value="7">Punarpoosam</option>
+											<option value="8">Poosam</option>
+											<option value="9">Ayilyam</option>
+											<option value="10">Magam</option>
+											<option value="11">Pooram</option>
+											<option value="12">Uthiram</option>
+											<option value="13">Astham</option>
+											<option value="14">Chithirai</option>
+											<option value="15">Swathi</option>
+											<option value="16">Visakam</option>
+											<option value="17">Anusham</option>
+											<option value="18">Kettai</option>
+											<option value="19">Moolam</option>
+											<option value="20">Pooradam</option>
+											<option value="21">Uthiradam</option>
+											<option value="22">Thiruvonam</option>
+											<option value="23">Avittam</option>
+											<option value="24">Sadayam</option>
+											<option value="25">Poorattathi</option>
+											<option value="26">Uthirattathi</option>
+											<option value="27">Revathi</option>
+											<option value="29">Don't Know</option>
                                     
                                 </select>
                                     </div>
@@ -276,7 +301,7 @@
                                     
                                     <div class="col-md-6 mb-3">
                                         <label class="form-label" style="color: #868686;">Dosham</label>
-                                <select class="form-select" aria-label="Default select example" disabled="">
+                                <select class="form-select" aria-label="Default select example" >
                                     <option selected="">Nothing Selected</option>
                                 </select>
                                     </div>
@@ -295,9 +320,8 @@
                                   
                                 </select>
                                 </div>
-                                
-                                    
-                                   <div class="row mt-4">
+                            
+                                   <div class="row mt-4 mb-4">
                                         <div class="next-btn text-center ">
                                         <a href="#">Save</a>
                                     </div>

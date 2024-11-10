@@ -9,9 +9,7 @@
   max-width: 100%;
 }
 .list-sec ul li.active {
-    background: aquamarine;
-    padding: 12px 0;
-    border-radius: 14px;
+   border-right: 5px solid #e34257;
 }
 .progress-bar {
   height: 17px;
@@ -233,7 +231,7 @@
                                     
                                          <div class="col-md-6 mb-3">
                                         <label class="form-label" style="color: #868686;">Relation Type</label>
-                                <input type="text" class="form-control">
+                                     <input type="text" class="form-control" Placeholder="Enter Relation Type">
                                     </div>
                                          <div class="col-md-6 mb-3">
                                          <label class="form-label" style="color: #868686;">Country Living In</label>
@@ -263,11 +261,11 @@
                                     
                                     <div class="col-md-6 mb-3">
                                       <label class="form-label" style="color: #868686;">City / Village</label>
-                                <input type="text" class="form-control" value="village">
+                                <input type="text" class="form-control" value="village" Placeholder="Enter City / Village">
                                     </div>
                                 <div class="col-md-6 mb-3">
                                           <label class="form-label" style="color: #868686;">Area / Location</label>
-                                <input type="text" class="form-control" value="Chennai">
+                                <input type="text" class="form-control" value="Chennai" Placeholder="Enter Area/Location">
                                 </div>
                                  <div class="col-md-6 mb-3">
                                        <label class="form-label" style="color: #868686;">Father Name*</label>
@@ -287,7 +285,7 @@
                                 </div>
                                 
                                     
-                                   <div class="row mt-4">
+                                   <div class="row mt-4 mb-4">
                                         <div class="next-btn text-center ">
                                         <a href="#">Save</a>
                                     </div>
