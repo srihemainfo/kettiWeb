@@ -29,10 +29,6 @@ Route::get('/about-us', function () {
     return view('about-us');
 });
 
-Route::get('/after-login', function () {
-    return view('editprofile/after-login');
-});
-
 Route::get('/compatibility-view', function () {
     return view('compatibility-view');
 });
@@ -62,6 +58,10 @@ Route::group(['middleware' => ['verifyCookie']], function () {
 
     //Logout
     Route::get('/logout','UserController@logout')->name('logout');
+
+    Route::get('/after-login', function () {
+        return view('editprofile/after-login');
+    })->name('after-login');
 
     Route::get('/bride-groom', 'MyProfileController@brideGroomIndex')->name('bride-groom');
 

@@ -23,9 +23,9 @@
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/after-login.css">
     <link rel="stylesheet" href="css/popupscreen.css">
-    
+
     <!--Font Awesome-->
-    
+
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,8 +34,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
 
 </head>
 
@@ -75,7 +77,7 @@
 
         </nav>
     </div>
-    
+
 </header>
 
 <section>
@@ -146,7 +148,7 @@
                                 <li><a href="#">Used Pin</a></li>
                                 <li><a href="#">Unused Pin</a></li>
                             </ul>
-                            </li>  
+                            </li>
                             <li><a href="#">How to Purchase Pin</a></li>
                         </ul>
                     </li>
@@ -181,14 +183,14 @@
                             <div id="imageCounter" class="image-counter">1/5</div>
                         </div>
                         <div class="thumbnails col-lg-7 d-flex justify-content-evenly align-items-center flex-column">
-                            
+
                             <div>
                                 <p style="font-weight:900;"> M.DHIVYA </p>
                                 <p> <span>KM1044</span> | <span>Profile Created by Self</span> </p>
                                 <p style="font-weight:700;"> <span>27 Yrs</span> | <span>5'2''</span> | <span>Vanniya Kula Kshatriyar</span> </p>
                                 <p style="font-weight:700;"> <span>B.Com</span> | <span>Hindu</span> | <span>K.K.Nagar</span> </p>
                             </div>
-                                
+
                             <div class="d-flex justify-content-evenly w-100">
                                 <img class="thumbnail active" src="images/women.webp" alt="Profile Image" onclick="switchImage('images/women.webp', 0)">
                                 <img class="thumbnail" src="images/women.webp" alt="Profile Image" onclick="switchImage('images/women.webp', 1)">
@@ -196,7 +198,7 @@
                                 <img class="thumbnail" src="images/women.webp" alt="Profile Image" onclick="switchImage('images/women.webp', 3)">
                                 <img class="thumbnail" src="images/women.webp" alt="Profile Image" onclick="switchImage('images/women.webp', 4)">
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -217,16 +219,16 @@
     // document.addEventListener('contextmenu', function (e) {
     //     e.preventDefault();
     // });
-    
+
     // document.addEventListener('keydown', function (e) {
     //     if (e.ctrlKey && (e.which == 73 || e.which == 67 || e.which == 85 || e.which == 70 || e.which == 123)) {
     //         e.preventDefault();
     //         return false;
     //     }
     // });
-    
+
     // Popup Screen
-    
+
      let currentIndex = 0;
     const images = ['images/women.webp', 'images/women.webp', 'images/women.webp', 'images/women.webp', 'images/women.webp'];
 
@@ -258,9 +260,8 @@
 
     // Initial counter update
     updateImageCounter();
-    
+
 </script>
-    
-    
+
+
 </body>
-    

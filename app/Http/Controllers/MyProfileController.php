@@ -8,12 +8,10 @@ use Illuminate\Support\Facades\Http;
 class MyProfileController extends Controller
 {
     public function brideGroomIndex(Request $request){
-        $maritalStatuses = null;
-        $religions = null;
-        $subReligions = null;
-        $motherTongues = null;
-        $castes = null;
-        $subCastes = null;
+        $maritalStatuses = [];
+        $religions = [];
+        $motherTongues = [];
+        $castes = [];
 
         $getMaritalStatuses = Http::post('https://webapi.kettimelammatrimony.com/api/marital-statuses');
         if ($getMaritalStatuses->successful()) {
@@ -23,10 +21,6 @@ class MyProfileController extends Controller
         if ($getReligions->successful()) {
             $religions = $getReligions->json()['data'];
         }
-        $getSubReligions = Http::post('https://webapi.kettimelammatrimony.com/api/sub-religions');
-        if ($getSubReligions->successful()) {
-            $subReligions = $getSubReligions->json()['data'];
-        }
         $getMotherTongues = Http::post('https://webapi.kettimelammatrimony.com/api/mother-tongues');
         if ($getMotherTongues->successful()) {
             $motherTongues = $getMotherTongues->json()['data'];
@@ -35,10 +29,6 @@ class MyProfileController extends Controller
         if ($getCastes->successful()) {
             $castes = $getCastes->json()['data'];
         }
-        $getSubCastes = Http::post('https://webapi.kettimelammatrimony.com/api/sub-castes');
-        if ($getSubCastes->successful()) {
-            $subCastes = $getSubCastes->json()['data'];
-        }
-        return view('editprofile/bride-groom',compact('maritalStatuses','religions','subReligions','motherTongues','castes','subCastes'));
+        return view('editprofile/bride-groom',compact('maritalStatuses','religions','motherTongues','castes'));
     }
 }

@@ -757,7 +757,7 @@ setTimeout(loading, 1000);
                     type: 'post',
                     url: "https://webapi.kettimelammatrimony.com/api/sub-religions",
                     headers: {
-                        'Authorization': getCookieValue('user-token')
+                        'Authorization': 'Bearer ' + getCookieValue('user-token')
                     },
                     data: {
                         'religionId': $(element).val()
@@ -790,7 +790,7 @@ setTimeout(loading, 1000);
                         if (xhr.status == 524) {
                             theContent = 'Request Timeout';
                         } else if (xhr.responseJSON) {
-                            theContent = jqXHR.responseJSON.message;
+                            theContent = xhr.responseJSON.data;
                         } else if (xhr.status == 500) {
                             theContent = 'Server Error';
                         } else if (xhr.statusText) {
